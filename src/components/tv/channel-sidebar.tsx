@@ -28,6 +28,7 @@ export function ChannelSidebar() {
     isFavorite,
     recentChannels,
     removeChannel,
+    setChannels,
   } = useTvStore();
 
   const [showSearch, setShowSearch] = useState(false);
@@ -67,6 +68,19 @@ export function ChannelSidebar() {
   const selectChannel = (id: string) => {
     setCurrentChannel(id);
     addRecent(id);
+  };
+
+  const deleteCategory = (cat: string) => {
+    const idsToRemove = channels
+      .filter((c) => c.category === cat)
+      .map((c) => c.id);
+    if (idsToRemove.length === 0) return;
+    const remaining = channels.filter((c) => c.category !== cat);
+    setChannels(remaining);
+    // Clear current channel if it was deleted
+    if (idsToRemove.includes(useTvStore.getState().currentChannelId)) {
+      useTvStore.setState({ currentChannelId: null });
+    }
   };
 
   return (
@@ -149,18 +163,31 @@ export function ChannelSidebar() {
         {/* Categories */}
         <div className="px-4 py-2 flex flex-wrap gap-1.5">
           {allCategories.map((cat) => (
-            <Badge
-              key={cat}
-              variant={activeCategory === cat ? "default" : "secondary"}
-              className={`cursor-pointer text-[11px] px-2.5 py-0.5 transition-all ${
-                activeCategory === cat
-                  ? "bg-orange-600 hover:bg-orange-500 text-white"
-                  : "bg-white/5 text-white/50 hover:bg-white/10 hover:text-white/80 border-0"
-              }`}
-              onClick={() => setActiveCategory(cat)}
-            >
-              {cat}
-            </Badge>
+            <div key={cat} className="group/cat relative">
+              <Badge
+                variant={activeCategory === cat ? "default" : "secondary"}
+                className={`cursor-pointer text-[11px] px-2.5 py-0.5 transition-all pr-5 ${
+                  activeCategory === cat
+                    ? "bg-orange-600 hover:bg-orange-500 text-white"
+                    : "bg-white/5 text-white/50 hover:bg-white/10 hover:text-white/80 border-0"
+                }`}
+                onClick={() => setActiveCategory(cat)}
+              >
+                {cat}
+              </Badge>
+              {cat !== "All" && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    deleteCategory(cat);
+                  }}
+                  className="absolute top-1/2 -translate-y-1/2 right-1 opacity-0 group-hover/cat:opacity-100 text-white/30 hover:text-red-400 transition-opacity"
+                  title={`Delete all "${cat}" channels`}
+                >
+                  <X size={10} />
+                </button>
+              )}
+            </div>
           ))}
         </div>
 
