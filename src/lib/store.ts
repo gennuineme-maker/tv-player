@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { Channel, sampleChannels } from "./channels";
+import { Channel } from "./channels";
 
 const COLORS = [
   "#ef4444", "#f97316", "#eab308", "#22c55e", "#06b6d4",
@@ -84,7 +84,7 @@ const saveJSON = (key: string, val: unknown) => {
 
 export const useTvStore = create<TvStore>((set, get) => ({
   // ---- Channels ----
-  channels: sampleChannels,
+  channels: [] as Channel[],
   setChannels: (ch) => { set({ channels: ch }); saveJSON("tv-channels", ch); },
 
   addChannel: (ch) => {
@@ -186,7 +186,7 @@ if (typeof window !== "undefined") {
   const favs = loadJSON<Favorite[]>("tv-favorites", []);
   const recent = loadJSON<string[]>("tv-recent", []);
   useTvStore.setState({
-    ...(channels ? { channels } : {}),
+    channels: channels ?? [],
     favorites: favs,
     recentChannels: recent,
   });

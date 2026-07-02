@@ -7,26 +7,14 @@ import { ChannelGrid } from "@/components/tv/channel-grid";
 import { AddChannelDialog } from "@/components/tv/add-channel-dialog";
 import { ImportPlaylistDialog } from "@/components/tv/import-playlist-dialog";
 import { useTvStore } from "@/lib/store";
-import { Menu, Search, RotateCcw } from "lucide-react";
+import { Menu, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
-import { sampleChannels } from "@/lib/channels";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
 
 export default function TvPage() {
-  const { sidebarOpen, setSidebarOpen, setCurrentChannel, addRecent, miniPlayer, channels, setChannels } =
+  const { sidebarOpen, setSidebarOpen, setCurrentChannel, addRecent, miniPlayer, channels } =
     useTvStore();
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [mobileSearch, setMobileSearch] = useState("");
@@ -45,11 +33,6 @@ export default function TvPage() {
         c.name.toLowerCase().includes(mobileSearch.toLowerCase())
       )
     : [];
-
-  const handleResetChannels = () => {
-    setChannels(sampleChannels);
-    useTvStore.setState({ currentChannelId: null });
-  };
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
@@ -132,39 +115,6 @@ export default function TvPage() {
                 </Button>
               )}
             </AnimatePresence>
-
-            {/* Reset channels */}
-            <AlertDialog>
-              <AlertDialogTrigger asChild>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="h-9 w-9 text-white/30 hover:text-white/60 hover:bg-white/10"
-                  title="Reset to default channels"
-                >
-                  <RotateCcw size={16} />
-                </Button>
-              </AlertDialogTrigger>
-              <AlertDialogContent className="bg-zinc-900 border-white/10 text-white">
-                <AlertDialogHeader>
-                  <AlertDialogTitle className="text-white">Reset Channels?</AlertDialogTitle>
-                  <AlertDialogDescription className="text-white/50">
-                    This will remove all your custom channels and restore the original defaults. This action cannot be undone.
-                  </AlertDialogDescription>
-                </AlertDialogHeader>
-                <AlertDialogFooter>
-                  <AlertDialogCancel className="text-white/60 hover:text-white hover:bg-white/10 border-white/10">
-                    Cancel
-                  </AlertDialogCancel>
-                  <AlertDialogAction
-                    onClick={handleResetChannels}
-                    className="bg-red-600 hover:bg-red-500 text-white"
-                  >
-                    Reset
-                  </AlertDialogAction>
-                </AlertDialogFooter>
-              </AlertDialogContent>
-            </AlertDialog>
           </div>
         </div>
 

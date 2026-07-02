@@ -184,7 +184,7 @@ export function ChannelSidebar() {
                   isFav
                   onSelect={() => selectChannel(ch.id)}
                   onToggleFav={() => toggleFavorite({ id: ch.id, name: ch.name })}
-                  canDelete={ch.id.startsWith("custom_") || ch.id.startsWith("import_")}
+                  canDelete
                   onDelete={() => removeChannel(ch.id)}
                 />
               ))}
@@ -242,7 +242,7 @@ export function ChannelSidebar() {
                 isFav={isFavorite(ch.id)}
                 onSelect={() => selectChannel(ch.id)}
                 onToggleFav={() => toggleFavorite({ id: ch.id, name: ch.name })}
-                canDelete={ch.id.startsWith("custom_") || ch.id.startsWith("import_")}
+                canDelete
                 onDelete={() => removeChannel(ch.id)}
               />
             ))}

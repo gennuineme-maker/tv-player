@@ -35,6 +35,23 @@ export function ChannelGrid() {
       {currentChannelId && <NowPlayingBar />}
 
       <div className="max-w-7xl mx-auto px-4 py-4 space-y-6">
+        {/* Empty state */}
+        {channels.length === 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center py-16"
+          >
+            <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-white/5 flex items-center justify-center">
+              <Tv size={28} className="text-white/20" />
+            </div>
+            <p className="text-white/30 text-sm mb-1">No channels yet</p>
+            <p className="text-white/15 text-xs">
+              Add your m3u8 stream or import a playlist to get started
+            </p>
+          </motion.div>
+        )}
+
         {favoriteChannels.length > 0 && (
           <ChannelRow
             title="Favorites"
@@ -43,6 +60,7 @@ export function ChannelGrid() {
             currentChannelId={currentChannelId}
             isFavorite={isFavorite}
             onSelect={selectChannel}
+            onDelete={(id) => removeChannel(id)}
             accent
           />
         )}
@@ -55,30 +73,33 @@ export function ChannelGrid() {
             currentChannelId={currentChannelId}
             isFavorite={isFavorite}
             onSelect={selectChannel}
+            onDelete={(id) => removeChannel(id)}
           />
         )}
 
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <Tv size={14} className="text-white/40" />
-            <h3 className="text-white/60 text-xs font-semibold uppercase tracking-wider">
-              All Channels ({channels.length})
-            </h3>
+        {channels.length > 0 && (
+          <div>
+            <div className="flex items-center gap-2 mb-3">
+              <Tv size={14} className="text-white/40" />
+              <h3 className="text-white/60 text-xs font-semibold uppercase tracking-wider">
+                All Channels ({channels.length})
+              </h3>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
+              {channels.map((ch, i) => (
+                <ChannelCard
+                  key={ch.id}
+                  channel={ch}
+                  index={i}
+                  isActive={currentChannelId === ch.id}
+                  isFav={isFavorite(ch.id)}
+                  onSelect={() => selectChannel(ch.id)}
+                  onDelete={() => removeChannel(ch.id)}
+                />
+              ))}
+            </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
-            {channels.map((ch, i) => (
-              <ChannelCard
-                key={ch.id}
-                channel={ch}
-                index={i}
-                isActive={currentChannelId === ch.id}
-                isFav={isFavorite(ch.id)}
-                onSelect={() => selectChannel(ch.id)}
-                onDelete={() => removeChannel(ch.id)}
-              />
-            ))}
-          </div>
-        </div>
+        )}
       </div>
     </div>
   );
@@ -91,6 +112,7 @@ function ChannelRow({
   currentChannelId,
   isFavorite,
   onSelect,
+  onDelete,
   accent,
 }: {
   title: string;
@@ -99,6 +121,7 @@ function ChannelRow({
   currentChannelId: string | null;
   isFavorite: (id: string) => boolean;
   onSelect: (id: string) => void;
+  onDelete: (id: string) => void;
   accent?: boolean;
 }) {
   return (
@@ -119,6 +142,7 @@ function ChannelRow({
               isActive={currentChannelId === ch.id}
               isFav={isFavorite(ch.id)}
               onSelect={() => onSelect(ch.id)}
+              onDelete={() => onDelete(ch.id)}
               compact
               accent={accent}
             />
@@ -145,12 +169,10 @@ function ChannelCard({
   isActive: boolean;
   isFav: boolean;
   onSelect: () => void;
-  onDelete?: () => void;
+  onDelete: () => void;
   compact?: boolean;
   accent?: boolean;
 }) {
-  const isCustom = channel.id.startsWith("custom_") || channel.id.startsWith("import_");
-
   return (
     <motion.div
       role="button"
@@ -217,7 +239,6 @@ function ChannelCard({
             </p>
             <p className="text-[10px] text-white/30 truncate">
               {channel.category}
-              {isCustom && " • Custom"}
             </p>
           </div>
         </div>
@@ -229,8 +250,8 @@ function ChannelCard({
           </div>
         </div>
 
-        {/* Badges */}
-        <div className="absolute top-1.5 right-1.5 flex items-center gap-1">
+        {/* Badges - positioned above the play overlay but still interactive */}
+        <div className="absolute top-1.5 right-1.5 flex items-center gap-1 z-10">
           {isActive && (
             <div
               className="w-1.5 h-1.5 rounded-full animate-pulse"
@@ -240,18 +261,20 @@ function ChannelCard({
           {isFav && (
             <Heart size={10} className="text-orange-400" fill="currentColor" />
           )}
-          {isCustom && onDelete && (
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                onDelete();
-              }}
-              className="opacity-0 group-hover:opacity-100 transition-opacity text-white/30 hover:text-red-400"
-              title="Remove channel"
-            >
-              <Trash2 size={10} />
-            </button>
-          )}
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+              onDelete();
+            }}
+            onMouseDown={(e) => e.stopPropagation()}
+            onTouchStart={(e) => e.stopPropagation()}
+            className="opacity-0 group-hover:opacity-100 transition-opacity text-white/30 hover:text-red-400 p-1 rounded"
+            title="Remove channel"
+          >
+            <Trash2 size={11} />
+          </button>
         </div>
       </div>
     </motion.div>
