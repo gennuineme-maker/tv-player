@@ -424,7 +424,7 @@ export function VideoPlayer() {
             className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-black/30 z-20"
           >
             {/* Top bar */}
-            <div className="absolute top-0 left-0 right-0 p-4 flex items-center justify-between">
+            <div className="absolute top-0 left-0 right-0 p-4 flex items-center">
               <div className="flex items-center gap-3">
                 <div
                   className="w-10 h-10 rounded-lg flex items-center justify-center font-bold text-white text-sm"
@@ -440,29 +440,6 @@ export function VideoPlayer() {
                     {currentChannel.category}
                   </p>
                 </div>
-              </div>
-              <div className="flex items-center gap-1">
-                <button
-                  onClick={togglePiP}
-                  className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
-                  title="Picture-in-Picture"
-                >
-                  <PictureInPicture2 size={18} />
-                </button>
-                <button
-                  onClick={toggleFullscreen}
-                  className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
-                  title="Fullscreen (F)"
-                >
-                  {isFullscreen ? <Minimize2 size={18} /> : <Maximize size={18} />}
-                </button>
-                <button
-                  onClick={() => setMiniPlayer(true)}
-                  className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
-                  title="Mini Player (P)"
-                >
-                  <Minimize size={18} />
-                </button>
               </div>
             </div>
 
@@ -532,6 +509,27 @@ export function VideoPlayer() {
                     }`}
                   >
                     <Heart size={18} fill={isFav ? "currentColor" : "none"} />
+                  </button>
+                  <button
+                    onClick={togglePiP}
+                    className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                    title="Picture-in-Picture"
+                  >
+                    <PictureInPicture2 size={18} />
+                  </button>
+                  <button
+                    onClick={toggleFullscreen}
+                    className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                    title="Fullscreen (F)"
+                  >
+                    {isFullscreen ? <Minimize2 size={18} /> : <Maximize size={18} />}
+                  </button>
+                  <button
+                    onClick={() => setMiniPlayer(true)}
+                    className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                    title="Mini Player (P)"
+                  >
+                    <Minimize size={18} />
                   </button>
                 </div>
               </div>

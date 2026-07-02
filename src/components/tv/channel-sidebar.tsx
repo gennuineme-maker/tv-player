@@ -167,7 +167,7 @@ export function ChannelSidebar() {
         <Separator className="bg-white/5" />
 
         {/* Channel list */}
-        <ScrollArea className="flex-1">
+        <ScrollArea className="flex-1 overflow-hidden">
           {favoriteChannels.length > 0 && !searchQuery && (
             <div className="mb-2">
               <div className="flex items-center gap-2 px-4 py-2">
