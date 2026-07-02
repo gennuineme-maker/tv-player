@@ -152,7 +152,10 @@ function ChannelCard({
   const isCustom = channel.id.startsWith("custom_") || channel.id.startsWith("import_");
 
   return (
-    <motion.button
+    <motion.div
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onSelect(); }}}
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.02, duration: 0.3 }}
@@ -251,7 +254,7 @@ function ChannelCard({
           )}
         </div>
       </div>
-    </motion.button>
+    </motion.div>
   );
 }
 

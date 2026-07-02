@@ -126,13 +126,19 @@ export function VideoPlayer() {
       setIsLoading(true);
     });
 
+    // Route through proxy to bypass CORS and mixed-content issues
+    const proxyUrl = `/api/proxy?url=${encodeURIComponent(currentChannel.url)}`;
+
     if (Hls.isSupported()) {
       const hls = new Hls({
         enableWorker: true,
         lowLatencyMode: true,
+        xhrSetup: (xhr) => {
+          // All segment requests already go through rewritten m3u8 URLs
+        },
       });
       hlsRef.current = hls;
-      hls.loadSource(currentChannel.url);
+      hls.loadSource(proxyUrl);
       hls.attachMedia(video);
 
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
@@ -154,7 +160,7 @@ export function VideoPlayer() {
         }
       });
     } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-      video.src = currentChannel.url;
+      video.src = proxyUrl;
       video.addEventListener("loadedmetadata", () => {
         video.play().catch(() => {});
       });
