@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import { useTvStore } from "@/lib/store";
-import { Channel, defaultCategories } from "@/lib/channels";
+import { Channel } from "@/lib/channels";
 import { Search, X, Star, Clock, ChevronRight, Tv, Trash2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -32,6 +31,17 @@ export function ChannelSidebar() {
   } = useTvStore();
 
   const [showSearch, setShowSearch] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  // Focus search input when opened
+  useEffect(() => {
+    if (showSearch && searchInputRef.current) {
+      // Small delay to let animation finish
+      const t = setTimeout(() => searchInputRef.current?.focus(), 100);
+      return () => clearTimeout(t);
+    }
+  }, [showSearch]);
 
   // Dynamic categories from all channels
   const allCategories = useMemo(() => {
@@ -68,6 +78,10 @@ export function ChannelSidebar() {
   const selectChannel = (id: string) => {
     setCurrentChannel(id);
     addRecent(id);
+    // Close sidebar on mobile after selecting
+    if (window.innerWidth < 1024) {
+      setSidebarOpen(false);
+    }
   };
 
   const deleteCategory = (cat: string) => {
@@ -77,7 +91,6 @@ export function ChannelSidebar() {
     if (idsToRemove.length === 0) return;
     const remaining = channels.filter((c) => c.category !== cat);
     setChannels(remaining);
-    // Clear current channel if it was deleted
     if (idsToRemove.includes(useTvStore.getState().currentChannelId)) {
       useTvStore.setState({ currentChannelId: null });
     }
@@ -106,7 +119,7 @@ export function ChannelSidebar() {
         className="fixed left-0 top-0 bottom-0 w-72 bg-zinc-950/95 backdrop-blur-xl border-r border-white/5 z-50 flex flex-col"
       >
         {/* Header */}
-        <div className="p-4 flex items-center justify-between border-b border-white/5">
+        <div className="p-4 flex items-center justify-between border-b border-white/5 flex-shrink-0">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
               <Tv size={16} className="text-white" />
@@ -120,6 +133,7 @@ export function ChannelSidebar() {
           </div>
           <div className="flex items-center gap-1">
             <Button
+              type="button"
               variant="ghost"
               size="icon"
               className="h-8 w-8 text-white/50 hover:text-white hover:bg-white/10"
@@ -128,10 +142,15 @@ export function ChannelSidebar() {
               {showSearch ? <X size={16} /> : <Search size={16} />}
             </Button>
             <Button
+              type="button"
               variant="ghost"
               size="icon"
               className="h-8 w-8 text-white/50 hover:text-white hover:bg-white/10"
-              onClick={() => setSidebarOpen(false)}
+              onClick={() => {
+                setSidebarOpen(false);
+                setShowSearch(false);
+                setSearchQuery("");
+              }}
             >
               <X size={16} />
             </Button>
@@ -145,15 +164,15 @@ export function ChannelSidebar() {
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              className="overflow-hidden"
+              className="overflow-hidden flex-shrink-0"
             >
               <div className="px-4 py-3">
                 <Input
+                  ref={searchInputRef}
                   placeholder="Search channels..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="bg-white/5 border-white/10 text-white placeholder:text-white/30 h-9 text-sm focus-visible:ring-orange-500/50"
-                  autoFocus
                 />
               </div>
             </motion.div>
@@ -161,7 +180,7 @@ export function ChannelSidebar() {
         </AnimatePresence>
 
         {/* Categories */}
-        <div className="px-4 py-2 flex flex-wrap gap-1.5">
+        <div className="px-4 py-2 flex flex-wrap gap-1.5 flex-shrink-0">
           {allCategories.map((cat) => (
             <div key={cat} className="group/cat relative">
               <Badge
@@ -177,6 +196,7 @@ export function ChannelSidebar() {
               </Badge>
               {cat !== "All" && (
                 <button
+                  type="button"
                   onClick={(e) => {
                     e.stopPropagation();
                     deleteCategory(cat);
@@ -191,10 +211,13 @@ export function ChannelSidebar() {
           ))}
         </div>
 
-        <Separator className="bg-white/5" />
+        <Separator className="bg-white/5 flex-shrink-0" />
 
-        {/* Channel list */}
-        <ScrollArea className="flex-1 overflow-hidden">
+        {/* Channel list - native scroll */}
+        <div
+          ref={scrollRef}
+          className="flex-1 min-h-0 overflow-y-auto overscroll-contain"
+        >
           {favoriteChannels.length > 0 && !searchQuery && (
             <div className="mb-2">
               <div className="flex items-center gap-2 px-4 py-2">
@@ -229,6 +252,7 @@ export function ChannelSidebar() {
                   </span>
                 </div>
                 <Button
+                  type="button"
                   variant="ghost"
                   size="icon"
                   className="h-5 w-5 text-white/20 hover:text-white/50"
@@ -245,6 +269,8 @@ export function ChannelSidebar() {
                   isFav={isFavorite(ch.id)}
                   onSelect={() => selectChannel(ch.id)}
                   onToggleFav={() => toggleFavorite({ id: ch.id, name: ch.name })}
+                  canDelete
+                  onDelete={() => removeChannel(ch.id)}
                 />
               ))}
               <Separator className="bg-white/5 my-1" />
@@ -280,10 +306,10 @@ export function ChannelSidebar() {
               </div>
             )}
           </div>
-        </ScrollArea>
+        </div>
 
         {/* Footer shortcuts */}
-        <div className="p-3 border-t border-white/5">
+        <div className="p-3 border-t border-white/5 flex-shrink-0">
           <div className="flex items-center justify-center gap-3 text-[10px] text-white/20">
             <span>
               <kbd className="px-1 py-0.5 bg-white/5 rounded text-white/30 font-mono">F</kbd> Fullscreen
@@ -380,6 +406,7 @@ function ChannelItem({
           <div className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ backgroundColor: channel.color }} />
         )}
         <button
+          type="button"
           onClick={(e) => {
             e.stopPropagation();
             onToggleFav();
@@ -394,6 +421,7 @@ function ChannelItem({
         </button>
         {canDelete && (
           <button
+            type="button"
             onClick={(e) => {
               e.stopPropagation();
               if (confirmDelete) {
