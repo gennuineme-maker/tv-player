@@ -78,7 +78,7 @@ export function ChannelSidebar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/60 z-40 lg:hidden"
+            className="fixed inset-0 bg-black/60 z-40"
             onClick={() => setSidebarOpen(false)}
           />
         )}
@@ -116,7 +116,7 @@ export function ChannelSidebar() {
             <Button
               variant="ghost"
               size="icon"
-              className="h-8 w-8 text-white/50 hover:text-white hover:bg-white/10 lg:hidden"
+              className="h-8 w-8 text-white/50 hover:text-white hover:bg-white/10"
               onClick={() => setSidebarOpen(false)}
             >
               <X size={16} />

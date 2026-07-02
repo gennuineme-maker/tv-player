@@ -421,7 +421,7 @@ export function VideoPlayer() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-black/30"
+            className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-black/30 z-20"
           >
             {/* Top bar */}
             <div className="absolute top-0 left-0 right-0 p-4 flex items-center justify-between">
@@ -540,16 +540,14 @@ export function VideoPlayer() {
         )}
       </AnimatePresence>
 
-      {/* Click to play/pause */}
-      {currentChannel && !error && (
+      {/* Click to play/pause - only active when controls are hidden */}
+      {currentChannel && !error && !showControls && (
         <div
-          className="absolute inset-0 z-[5]"
+          className="absolute inset-0 z-10"
           onDoubleClick={toggleFullscreen}
-          onClick={(e) => {
-            if (!showControls) {
-              togglePlay();
-              resetControlsTimer();
-            }
+          onClick={() => {
+            togglePlay();
+            resetControlsTimer();
           }}
         />
       )}
