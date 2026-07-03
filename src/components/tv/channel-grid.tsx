@@ -1,10 +1,12 @@
 "use client";
 
+import { useState, useMemo, memo } from "react";
 import { useTvStore } from "@/lib/store";
 import { Channel } from "@/lib/channels";
-import { Star, Tv, Play, Heart, Zap, Trash2 } from "lucide-react";
-import { motion } from "framer-motion";
+import { Star, Tv, Play, Heart, Zap, Trash2, ChevronDown } from "lucide-react";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+
+const PAGE_SIZE = 48;
 
 export function ChannelGrid() {
   const {
@@ -18,17 +20,30 @@ export function ChannelGrid() {
     removeChannel,
   } = useTvStore();
 
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
   const selectChannel = (id: string) => {
     setCurrentChannel(id);
     addRecent(id);
   };
 
-  const favoriteChannels = channels.filter((c) => isFavorite(c.id));
-  const recent = recentChannels
-    .map((id) => channels.find((c) => c.id === id))
-    .filter(Boolean) as Channel[];
+  const favoriteChannels = useMemo(
+    () => channels.filter((c) => isFavorite(c.id)),
+    [channels, isFavorite]
+  );
+
+  const recent = useMemo(
+    () =>
+      recentChannels
+        .map((id) => channels.find((c) => c.id === id))
+        .filter(Boolean) as Channel[],
+    [channels, recentChannels]
+  );
 
   if (miniPlayer) return null;
+
+  const visibleChannels = channels.slice(0, visibleCount);
+  const hasMore = visibleCount < channels.length;
 
   return (
     <div className="bg-zinc-950 border-t border-white/5">
@@ -37,11 +52,7 @@ export function ChannelGrid() {
       <div className="max-w-7xl mx-auto px-4 py-4 space-y-6">
         {/* Empty state */}
         {channels.length === 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center py-16"
-          >
+          <div className="text-center py-16">
             <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-white/5 flex items-center justify-center">
               <Tv size={28} className="text-white/20" />
             </div>
@@ -49,7 +60,7 @@ export function ChannelGrid() {
             <p className="text-white/15 text-xs">
               Add your m3u8 stream or import a playlist to get started
             </p>
-          </motion.div>
+          </div>
         )}
 
         {favoriteChannels.length > 0 && (
@@ -84,13 +95,17 @@ export function ChannelGrid() {
               <h3 className="text-white/60 text-xs font-semibold uppercase tracking-wider">
                 All Channels ({channels.length})
               </h3>
+              {hasMore && (
+                <span className="text-white/20 text-[10px]">
+                  Showing {visibleCount}
+                </span>
+              )}
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
-              {channels.map((ch, i) => (
+              {visibleChannels.map((ch, i) => (
                 <ChannelCard
                   key={ch.id}
                   channel={ch}
-                  index={i}
                   isActive={currentChannelId === ch.id}
                   isFav={isFavorite(ch.id)}
                   onSelect={() => selectChannel(ch.id)}
@@ -98,6 +113,19 @@ export function ChannelGrid() {
                 />
               ))}
             </div>
+
+            {hasMore && (
+              <div className="flex justify-center mt-4">
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+                  className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-white/50 hover:text-white/80 text-sm transition-colors"
+                >
+                  <ChevronDown size={16} />
+                  Load More ({channels.length - visibleCount} remaining)
+                </button>
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -134,11 +162,10 @@ function ChannelRow({
       </div>
       <ScrollArea className="w-full">
         <div className="flex gap-2 pb-2">
-          {channels.map((ch, i) => (
+          {channels.map((ch) => (
             <ChannelCard
               key={ch.id}
               channel={ch}
-              index={i}
               isActive={currentChannelId === ch.id}
               isFav={isFavorite(ch.id)}
               onSelect={() => onSelect(ch.id)}
@@ -154,9 +181,9 @@ function ChannelRow({
   );
 }
 
-function ChannelCard({
+// Memoized channel card - prevents re-rendering when other channels change
+const ChannelCard = memo(function ChannelCard({
   channel,
-  index,
   isActive,
   isFav,
   onSelect,
@@ -165,7 +192,7 @@ function ChannelCard({
   accent,
 }: {
   channel: Channel;
-  index: number;
+  index?: number;
   isActive: boolean;
   isFav: boolean;
   onSelect: () => void;
@@ -174,17 +201,17 @@ function ChannelCard({
   accent?: boolean;
 }) {
   return (
-    <motion.div
+    <div
       role="button"
       tabIndex={0}
-      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onSelect(); }}}
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.02, duration: 0.3 }}
-      whileHover={{ scale: 1.03 }}
-      whileTap={{ scale: 0.97 }}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onSelect();
+        }
+      }}
       onClick={onSelect}
-      className={`group relative rounded-xl overflow-hidden text-left transition-all ${
+      className={`group relative rounded-xl overflow-hidden text-left transition-all cursor-pointer ${
         compact ? "w-36 flex-shrink-0" : ""
       } ${
         isActive
@@ -209,6 +236,7 @@ function ChannelCard({
               src={channel.logo}
               alt={channel.name}
               className={`${compact ? "w-8 h-8" : "w-10 h-10"} rounded-lg object-cover flex-shrink-0`}
+              loading="lazy"
               onError={(e) => {
                 (e.target as HTMLImageElement).style.display = "none";
                 (e.target as HTMLImageElement).nextElementSibling?.classList.remove("hidden");
@@ -250,7 +278,7 @@ function ChannelCard({
           </div>
         </div>
 
-        {/* Badges - positioned above the play overlay but still interactive */}
+        {/* Badges */}
         <div className="absolute top-1.5 right-1.5 flex items-center gap-1 z-10">
           {isActive && (
             <div
@@ -277,9 +305,9 @@ function ChannelCard({
           </button>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
-}
+});
 
 function NowPlayingBar() {
   const { currentChannelId, miniPlayer, channels } = useTvStore();
@@ -287,11 +315,7 @@ function NowPlayingBar() {
   if (!channel || miniPlayer) return null;
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: -10 }}
-      animate={{ opacity: 1, y: 0 }}
-      className="px-4 py-2.5 bg-zinc-900/50 border-b border-white/5"
-    >
+    <div className="px-4 py-2.5 bg-zinc-900/50 border-b border-white/5">
       <div className="max-w-7xl mx-auto flex items-center gap-3">
         <div className="flex items-center gap-1.5">
           <div
@@ -317,6 +341,6 @@ function NowPlayingBar() {
         <span className="text-white/20 text-xs">|</span>
         <span className="text-white/30 text-xs">{channel.category}</span>
       </div>
-    </motion.div>
+    </div>
   );
 }

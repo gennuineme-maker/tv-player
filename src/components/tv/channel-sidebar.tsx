@@ -1,14 +1,16 @@
 "use client";
 
-import { useState, useMemo, useRef, useEffect } from "react";
+import { useState, useMemo, useRef, useEffect, memo, useCallback } from "react";
 import { useTvStore } from "@/lib/store";
 import { Channel } from "@/lib/channels";
 import { Search, X, Star, Clock, ChevronRight, Tv, Trash2 } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+
+const SIDEBAR_LIST_LIMIT = 100;
 
 export function ChannelSidebar() {
   const {
@@ -22,7 +24,6 @@ export function ChannelSidebar() {
     currentChannelId,
     setCurrentChannel,
     addRecent,
-    favorites,
     toggleFavorite,
     isFavorite,
     recentChannels,
@@ -31,13 +32,22 @@ export function ChannelSidebar() {
   } = useTvStore();
 
   const [showSearch, setShowSearch] = useState(false);
+  const [localSearch, setLocalSearch] = useState("");
   const searchInputRef = useRef<HTMLInputElement>(null);
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>();
+
+  // Debounced search
+  useEffect(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      setSearchQuery(localSearch);
+    }, 200);
+    return () => clearTimeout(debounceRef.current);
+  }, [localSearch, setSearchQuery]);
 
   // Focus search input when opened
   useEffect(() => {
     if (showSearch && searchInputRef.current) {
-      // Small delay to let animation finish
       const t = setTimeout(() => searchInputRef.current?.focus(), 100);
       return () => clearTimeout(t);
     }
@@ -55,9 +65,8 @@ export function ChannelSidebar() {
       chs = chs.filter((c) => c.category === activeCategory);
     }
     if (searchQuery) {
-      chs = chs.filter((c) =>
-        c.name.toLowerCase().includes(searchQuery.toLowerCase())
-      );
+      const q = searchQuery.toLowerCase();
+      chs = chs.filter((c) => c.name.toLowerCase().includes(q));
     }
     return chs;
   }, [channels, activeCategory, searchQuery]);
@@ -75,30 +84,32 @@ export function ChannelSidebar() {
     [channels, recentChannels]
   );
 
-  const selectChannel = (id: string) => {
+  const selectChannel = useCallback((id: string) => {
     setCurrentChannel(id);
     addRecent(id);
-    // Close sidebar on mobile after selecting
     if (window.innerWidth < 1024) {
       setSidebarOpen(false);
     }
-  };
+  }, [setCurrentChannel, addRecent, setSidebarOpen]);
 
-  const deleteCategory = (cat: string) => {
-    const idsToRemove = channels
+  const deleteCategory = useCallback((cat: string) => {
+    const state = useTvStore.getState();
+    const idsToRemove = state.channels
       .filter((c) => c.category === cat)
       .map((c) => c.id);
     if (idsToRemove.length === 0) return;
-    const remaining = channels.filter((c) => c.category !== cat);
+    const remaining = state.channels.filter((c) => c.category !== cat);
     setChannels(remaining);
-    if (idsToRemove.includes(useTvStore.getState().currentChannelId)) {
+    if (idsToRemove.includes(state.currentChannelId)) {
       useTvStore.setState({ currentChannelId: null });
     }
-  };
+  }, [setChannels]);
+
+  const sidebarFiltered = filteredChannels.slice(0, SIDEBAR_LIST_LIMIT);
+  const isTruncated = filteredChannels.length > SIDEBAR_LIST_LIMIT;
 
   return (
     <>
-      {/* Mobile overlay */}
       <AnimatePresence>
         {sidebarOpen && (
           <motion.div
@@ -111,7 +122,6 @@ export function ChannelSidebar() {
         )}
       </AnimatePresence>
 
-      {/* Sidebar */}
       <motion.aside
         initial={false}
         animate={{ x: sidebarOpen ? 0 : -288 }}
@@ -137,7 +147,13 @@ export function ChannelSidebar() {
               variant="ghost"
               size="icon"
               className="h-8 w-8 text-white/50 hover:text-white hover:bg-white/10"
-              onClick={() => setShowSearch(!showSearch)}
+              onClick={() => {
+                setShowSearch(!showSearch);
+                if (showSearch) {
+                  setLocalSearch("");
+                  setSearchQuery("");
+                }
+              }}
             >
               {showSearch ? <X size={16} /> : <Search size={16} />}
             </Button>
@@ -149,6 +165,7 @@ export function ChannelSidebar() {
               onClick={() => {
                 setSidebarOpen(false);
                 setShowSearch(false);
+                setLocalSearch("");
                 setSearchQuery("");
               }}
             >
@@ -170,8 +187,8 @@ export function ChannelSidebar() {
                 <Input
                   ref={searchInputRef}
                   placeholder="Search channels..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  value={localSearch}
+                  onChange={(e) => setLocalSearch(e.target.value)}
                   className="bg-white/5 border-white/10 text-white placeholder:text-white/30 h-9 text-sm focus-visible:ring-orange-500/50"
                 />
               </div>
@@ -213,11 +230,8 @@ export function ChannelSidebar() {
 
         <Separator className="bg-white/5 flex-shrink-0" />
 
-        {/* Channel list - native scroll */}
-        <div
-          ref={scrollRef}
-          className="flex-1 min-h-0 overflow-y-auto overscroll-contain"
-        >
+        {/* Channel list */}
+        <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain">
           {favoriteChannels.length > 0 && !searchQuery && (
             <div className="mb-2">
               <div className="flex items-center gap-2 px-4 py-2">
@@ -226,7 +240,7 @@ export function ChannelSidebar() {
                   Favorites
                 </span>
               </div>
-              {favoriteChannels.map((ch) => (
+              {favoriteChannels.slice(0, 20).map((ch) => (
                 <ChannelItem
                   key={ch.id}
                   channel={ch}
@@ -287,7 +301,7 @@ export function ChannelSidebar() {
                   : `All Channels (${filteredChannels.length})`}
               </span>
             </div>
-            {filteredChannels.map((ch) => (
+            {sidebarFiltered.map((ch) => (
               <ChannelItem
                 key={ch.id}
                 channel={ch}
@@ -299,6 +313,13 @@ export function ChannelSidebar() {
                 onDelete={() => removeChannel(ch.id)}
               />
             ))}
+            {isTruncated && (
+              <div className="px-4 py-3 text-center">
+                <p className="text-white/20 text-[11px]">
+                  Showing {SIDEBAR_LIST_LIMIT} of {filteredChannels.length} — use grid below for full list
+                </p>
+              </div>
+            )}
             {filteredChannels.length === 0 && (
               <div className="px-4 py-8 text-center">
                 <Search size={24} className="mx-auto text-white/20 mb-2" />
@@ -308,7 +329,7 @@ export function ChannelSidebar() {
           </div>
         </div>
 
-        {/* Footer shortcuts */}
+        {/* Footer */}
         <div className="p-3 border-t border-white/5 flex-shrink-0">
           <div className="flex items-center justify-center gap-3 text-[10px] text-white/20">
             <span>
@@ -327,7 +348,8 @@ export function ChannelSidebar() {
   );
 }
 
-function ChannelItem({
+// Memoized sidebar item
+const ChannelItem = memo(function ChannelItem({
   channel,
   isActive,
   isFav,
@@ -347,8 +369,7 @@ function ChannelItem({
   const [confirmDelete, setConfirmDelete] = useState(false);
 
   return (
-    <motion.div
-      whileHover={{ x: 4 }}
+    <div
       onClick={() => {
         if (confirmDelete) return;
         onSelect();
@@ -371,6 +392,7 @@ function ChannelItem({
           src={channel.logo}
           alt={channel.name}
           className="w-9 h-9 rounded-lg object-cover flex-shrink-0"
+          loading="lazy"
           onError={(e) => {
             (e.target as HTMLImageElement).style.display = "none";
             const fallback = (e.target as HTMLImageElement).nextElementSibling as HTMLElement;
@@ -449,6 +471,6 @@ function ChannelItem({
           }`}
         />
       </div>
-    </motion.div>
+    </div>
   );
-}
+});
