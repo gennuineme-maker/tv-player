@@ -5,10 +5,21 @@ import { useTvStore } from "@/lib/store";
 import { Channel } from "@/lib/channels";
 import {
   Search, X, Star, Clock, Tv, Trash2,
-  ArrowLeft, ChevronRight,
+  ArrowLeft, ChevronRight, RotateCcw,
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 
 const CHAN_PAGE = 80;
 
@@ -121,6 +132,16 @@ export function ChannelSidebar() {
   const goBack = useCallback(() => {
     setViewState({ view: "categories", category: null });
   }, []);
+
+  const resetAll = useCallback(() => {
+    const state = useTvStore.getState();
+    setChannels([]);
+    useTvStore.setState({ currentChannelId: null, recentChannels: [], favorites: [] });
+    localStorage.removeItem("tv-channels");
+    localStorage.removeItem("tv-recent");
+    localStorage.removeItem("tv-favorites");
+    setViewState({ view: "categories", category: null });
+  }, [setChannels]);
 
   const deleteCategory = useCallback((cat: string) => {
     const state = useTvStore.getState();
@@ -376,7 +397,39 @@ export function ChannelSidebar() {
         </div>
 
         {/* Footer */}
-        <div className="p-3 border-t border-white/5 flex-shrink-0">
+        <div className="p-3 border-t border-white/5 flex-shrink-0 space-y-2">
+          {channels.length > 0 && (
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="sm"
+                  className="w-full h-8 text-white/30 hover:text-red-400 hover:bg-red-400/10 text-xs gap-1.5"
+                >
+                  <RotateCcw size={12} />
+                  Reset All Channels
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent className="bg-zinc-900 border-white/10">
+                <AlertDialogHeader>
+                  <AlertDialogTitle className="text-white">Reset All Channels?</AlertDialogTitle>
+                  <AlertDialogDescription className="text-white/50">
+                    This will permanently delete all {channels.length} channels, favorites, and recent history. This action cannot be undone.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel className="bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white">Cancel</AlertDialogCancel>
+                  <AlertDialogAction
+                    className="bg-red-600 hover:bg-red-700 text-white"
+                    onClick={resetAll}
+                  >
+                    Yes, Reset All
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          )}
           <div className="flex items-center justify-center gap-3 text-[10px] text-white/20">
             <span><kbd className="px-1 py-0.5 bg-white/5 rounded text-white/30 font-mono">F</kbd> Fullscreen</span>
             <span><kbd className="px-1 py-0.5 bg-white/5 rounded text-white/30 font-mono">M</kbd> Mute</span>
