@@ -1,0 +1,689 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Kantipur_Max_HD_2024-01-01_05:01:02.png",Kantipur Max 2 HD
+http://202.166.192.207/oldlivestream/KTVMax2HD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNSBBTSZoYXNoX3ZhbHVlPVloT2o2bWRvekl2VFFNalpKNHN2WlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Kantipur_HD_2021-05-03_10:05:22.png",Kantipur HD
+http://202.166.192.205/iptvlivestream/netKANTIPUR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNSBBTSZoYXNoX3ZhbHVlPVloT2o2bWRvekl2VFFNalpKNHN2WlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/AP1_HD_2021-05-03_10:05:59.png",AP1 HD
+http://202.166.192.207/iptvlivedge/netAP1HD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNiBBTSZoYXNoX3ZhbHVlPVZJUnZwenhKY3daTTF1ejNmMkl3V2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Himalaya_TV_HD_2021-05-03_10:05:55.png",Himalaya TV HD
+http://202.166.192.206/iptvlivestream/netHIMALAYA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNiBBTSZoYXNoX3ZhbHVlPVZJUnZwenhKY3daTTF1ejNmMkl3V2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nepal_TV_HD_2021-05-03_11:05:44.png",Nepal TV HD
+http://202.166.192.205/iptvlivestream/netNTVNEPAL1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNiBBTSZoYXNoX3ZhbHVlPVZJUnZwenhKY3daTTF1ejNmMkl3V2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NTV_News_HD_2021-05-03_11:05:04.png",NTV News HD
+http://202.166.192.204/iptvlivestream/netNTVNEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNyBBTSZoYXNoX3ZhbHVlPURaODRSa0ZUS043cUFCd0pDVFAvL1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NTV_Plus_HD_2021-05-03_11:05:27.png",NTV Plus HD
+http://202.166.192.206/iptvlivestream/netNTVPLUS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNyBBTSZoYXNoX3ZhbHVlPURaODRSa0ZUS043cUFCd0pDVFAvL1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Prime_Times_2020-10-02_06:10:33.png",Prime Times HD
+http://202.166.192.205/iptvlivestream/netPRIMETV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxNyBBTSZoYXNoX3ZhbHVlPURaODRSa0ZUS043cUFCd0pDVFAvL1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Makalu_TV_HD_2021-01-31_07:01:58.jpg",Makalu TV HD
+http://202.166.192.206/iptvlivestream/netMakaluTvHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOCBBTSZoYXNoX3ZhbHVlPWZNN1pudXQxeTg4SXNJNmtPaTBuQ0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Janata_HD_2021-05-03_11:05:25.png",Janata HD
+http://202.166.192.204/iptvlivestream/netJANTATV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOCBBTSZoYXNoX3ZhbHVlPWZNN1pudXQxeTg4SXNJNmtPaTBuQ0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Mountain_TV_HD_2022-03-10_10:03:26.png",Mountain TV HD
+http://202.166.192.205/iptvlivestream/netMOUNTAIN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOCBBTSZoYXNoX3ZhbHVlPWZNN1pudXQxeTg4SXNJNmtPaTBuQ0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Galaxy_4K_2021-06-01_02:06:48.jpg",Galaxy 4K
+http://202.166.192.204/iptvlivestream/netGALAXY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOCBBTSZoYXNoX3ZhbHVlPWZNN1pudXQxeTg4SXNJNmtPaTBuQ0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Kantipur_Max_HD_2024-01-01_05:01:02.png",Kantipur Max HD
+http://202.166.192.207/iptvlivestream/netKANTIPURCINEPLEX1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOSBBTSZoYXNoX3ZhbHVlPU80UHFWdUJEZmptbUp4YjdGMXdqMmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Kantipur_Max_HD_2024-01-01_05:01:02.png",NPL Live
+http://202.166.192.204/npllive/KTVHD4500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOSBBTSZoYXNoX3ZhbHVlPU80UHFWdUJEZmptbUp4YjdGMXdqMmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/METV_2020-11-01_03:11:03.jpg",METV | HD
+http://202.166.192.207/iptvlivestream/netMeTvHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOSBBTSZoYXNoX3ZhbHVlPU80UHFWdUJEZmptbUp4YjdGMXdqMmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NTV_Itahari_HD_2020-08-23_08:08:37.png",NTV Itahari HD
+http://202.166.192.207/iptvlivestream/netNTVitahari1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoxOSBBTSZoYXNoX3ZhbHVlPU80UHFWdUJEZmptbUp4YjdGMXdqMmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NTV_Kohalpur_HD_2021-05-03_11:05:21.png",NTV Kohalpur HD
+http://202.166.192.204/iptvlivestream/netNTVKOHALPUR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMCBBTSZoYXNoX3ZhbHVlPVZaTjZKQ0NsbHBjMUpicDBhSFU2ZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Yoho_TV_HD_2022-03-10_10:03:53.png",Yoho TV HD
+http://202.166.192.205/iptvlivestream/netYohoTv1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMCBBTSZoYXNoX3ZhbHVlPVZaTjZKQ0NsbHBjMUpicDBhSFU2ZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Business_Plus_HD_2022-03-10_10:03:20.png",Business Plus HD
+http://202.166.192.206/iptvlivestream/netBusinessplus1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMCBBTSZoYXNoX3ZhbHVlPVZaTjZKQ0NsbHBjMUpicDBhSFU2ZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Global_TV_2022-03-10_10:03:47.png",Global TV
+http://202.166.192.205/iptvlivestream/netGlobalTvNep.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMCBBTSZoYXNoX3ZhbHVlPVZaTjZKQ0NsbHBjMUpicDBhSFU2ZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/News_24_2021-05-03_11:05:54.png",News 24
+http://202.166.192.204/iptvlivestream/netNEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMSBBTSZoYXNoX3ZhbHVlPVNMSW9BVG4wUlRxYXFhdlBVTWNEV3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Image_Channel_2021-09-13_10:09:42.jpg",Image HD
+http://202.166.192.205/iptvlivestream/netIMAGE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMSBBTSZoYXNoX3ZhbHVlPVNMSW9BVG4wUlRxYXFhdlBVTWNEV3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sagarmatha_TV_2021-05-03_11:05:18.png",Sagarmatha TV
+http://202.166.192.207/iptvlivestream/netSAGAR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMSBBTSZoYXNoX3ZhbHVlPVNMSW9BVG4wUlRxYXFhdlBVTWNEV3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ABC_NEWS_2021-05-03_11:05:24.png",ABC NEWS
+http://202.166.192.206/iptvlivestream/netABC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMSBBTSZoYXNoX3ZhbHVlPVNMSW9BVG4wUlRxYXFhdlBVTWNEV3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Avenues_TV_2021-05-03_11:05:44.png",Avenues TV
+http://202.166.192.206/iptvlivestream/netAVENEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMiBBTSZoYXNoX3ZhbHVlPUtaU1MrY0NrWHA4UHVBVVhMOWVpQlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TV_Today_HD_2021-10-21_09:10:05.png",TV Today HD
+http://202.166.192.207/iptvlivestream/netTVTODAY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMiBBTSZoYXNoX3ZhbHVlPUtaU1MrY0NrWHA4UHVBVVhMOWVpQlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BTV_Business_2022-03-10_10:03:58.png",BTV Business
+http://202.166.192.206/iptvlivestream/netBTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMiBBTSZoYXNoX3ZhbHVlPUtaU1MrY0NrWHA4UHVBVVhMOWVpQlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nari_HD_2023-07-07_10:07:58.jpeg",Nari HD
+http://202.166.192.206/iptvlivestream/netTVFILMY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMiBBTSZoYXNoX3ZhbHVlPUtaU1MrY0NrWHA4UHVBVVhMOWVpQlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Him_Shikhar_TV_2021-09-20_06:09:29.png",Him Shikhar TV
+http://202.166.192.205/iptvlivestream/netHimShikharTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMiBBTSZoYXNoX3ZhbHVlPUtaU1MrY0NrWHA4UHVBVVhMOWVpQlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Space_4K_2023-04-16_09:04:03.png",Space 4K
+http://202.166.192.207/iptvlivestream/netSPACE4K.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMyBBTSZoYXNoX3ZhbHVlPUN4MDhZK0FVbmxoYTlzUTJhZk53d1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Himalaya_Premium_HD_2022-11-03_05:11:49.jpg",Himalaya Premium HD
+http://202.166.192.204/ffplay/wc-Himalaya1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMyBBTSZoYXNoX3ZhbHVlPUN4MDhZK0FVbmxoYTlzUTJhZk53d1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BM_HD_2021-12-17_10:12:50.png",BM HD
+http://202.166.192.207/iptvlivestream/netBM1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyMyBBTSZoYXNoX3ZhbHVlPUN4MDhZK0FVbmxoYTlzUTJhZk53d1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Health_Television_2018-01-19_05:01:58.png",HEALTH TELEVISION
+http://202.166.192.207/iptvlivestream/netHealthTv1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNCBBTSZoYXNoX3ZhbHVlPUQwNms4THpuYyt3eXlQNSs3aHZrSmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/School_Education_HD_2020-06-14_03:06:33.jpg",विद्यालय शिक्षा
+http://202.166.192.206/iptvlivestream/EDUTV1HD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNCBBTSZoYXNoX3ZhbHVlPUQwNms4THpuYyt3eXlQNSs3aHZrSmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Bodhi_TV_HD_2021-05-03_11:05:28.png",Bodhi TV HD
+http://202.166.192.207/iptvlivestream/netBodhi1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNCBBTSZoYXNoX3ZhbHVlPUQwNms4THpuYyt3eXlQNSs3aHZrSmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Channel_4_Nepal_2021-05-03_11:05:59.png",Channel 4 Nepal
+http://202.166.192.206/iptvlivestream/netCHFOUR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNCBBTSZoYXNoX3ZhbHVlPUQwNms4THpuYyt3eXlQNSs3aHZrSmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Krishi_TV_HD_2021-05-03_11:05:27.png",Krishi TV HD
+http://202.166.192.207/iptvlivestream/Krishifallback.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNSBBTSZoYXNoX3ZhbHVlPVBEU3pBNVhyL2ttVnNMOUxNdWoxdHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Kastamandap_Telivision_2021-05-03_11:05:15.png",Kastamandap Telivision
+http://202.166.192.207/iptvlivestream/Kasthmandap/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNSBBTSZoYXNoX3ZhbHVlPVBEU3pBNVhyL2ttVnNMOUxNdWoxdHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Indegenous_Telivision_2021-05-03_11:05:41.png",Indegenous Telivision
+http://202.166.192.204/iptvlivestream/Indigenousfallback.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNSBBTSZoYXNoX3ZhbHVlPVBEU3pBNVhyL2ttVnNMOUxNdWoxdHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/KALIKA_HD_2021-05-03_11:05:10.png",Kalika HD
+http://202.166.192.205/iptvlivestream/netKalikaTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNSBBTSZoYXNoX3ZhbHVlPVBEU3pBNVhyL2ttVnNMOUxNdWoxdHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NICE_TELEVISION_HD_2021-05-05_08:05:06.png",Nice Television HD
+http://202.166.192.204/iptvlivestream/nicetelevison.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNiBBTSZoYXNoX3ZhbHVlPU4wck8weXgyNExPV2dERzZadTZKSEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Life_Ok_Nepal_2021-05-05_07:05:27.png",Life Ok Nepal
+http://202.166.192.205/iptvlivestream/netlifeoknepal.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNiBBTSZoYXNoX3ZhbHVlPU4wck8weXgyNExPV2dERzZadTZKSEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Mega_TV_2022-03-10_10:03:02.png",Mega TV
+http://202.166.192.206/iptvlivestream/Megafallback.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNiBBTSZoYXNoX3ZhbHVlPU4wck8weXgyNExPV2dERzZadTZKSEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Universal_TV_HD_2022-07-25_06:07:19.png",Universal TV HD
+http://202.166.192.207/iptvlivestream/aranikotv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNiBBTSZoYXNoX3ZhbHVlPU4wck8weXgyNExPV2dERzZadTZKSEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Newa_TV_2021-05-05_07:05:27.png",Newa TV
+http://202.166.192.204/iptvlivestream/NewaTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNyBBTSZoYXNoX3ZhbHVlPXduR2h1eGlWYnR4TDhWS3FuNTIzZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Bhadgaun_Television_2021-05-05_07:05:40.png",Bhadgaun Television
+http://202.166.192.204/iptvlivestream/netBhadgaun1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNyBBTSZoYXNoX3ZhbHVlPXduR2h1eGlWYnR4TDhWS3FuNTIzZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nepal_Mandal_2021-05-05_08:05:15.png",Nepal Mandal
+http://202.166.192.205/iptvlivestream/netNepalMandal1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNyBBTSZoYXNoX3ZhbHVlPXduR2h1eGlWYnR4TDhWS3FuNTIzZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Everest_Tv_HD_2021-01-21_05:01:23.png",Everest Tv HD
+http://202.166.192.204/iptvlivestream/netOSNnepal1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyNyBBTSZoYXNoX3ZhbHVlPXduR2h1eGlWYnR4TDhWS3FuNTIzZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Mithila_TV_HD_2021-05-05_06:05:36.png",Mithila TV HD
+http://202.166.192.205/iptvlivestream/netMithilatv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOCBBTSZoYXNoX3ZhbHVlPXNVVDk1SFdqVG56bEFnRWRiTXIvZ1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Deuti_HD_2018-08-07_06:08:10.jpg",Deuti HD
+http://202.166.192.206/iptvlivestream/DEUTI-HD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOCBBTSZoYXNoX3ZhbHVlPXNVVDk1SFdqVG56bEFnRWRiTXIvZ1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Kisan_TV_2019-10-15_01:10:38.png",Kisan TV
+http://202.166.192.206/iptvlivestream/kisantv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOCBBTSZoYXNoX3ZhbHVlPXNVVDk1SFdqVG56bEFnRWRiTXIvZ1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Paryawaran_TV_2022-03-10_10:03:24.png",Paryawaran TV
+http://202.166.192.205/iptvlivestream/paryawarantv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOCBBTSZoYXNoX3ZhbHVlPXNVVDk1SFdqVG56bEFnRWRiTXIvZ1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Rajya_Television_2019-05-03_05:05:20.jpg",Rajya Television
+http://202.166.192.207/iptvlivestream/rajya4k.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOSBBTSZoYXNoX3ZhbHVlPVVscTVrNklWVnZGeER0cDM4R0oxMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Bagmati_TV_HD_2021-07-09_10:07:56.png",Bagmati TV HD
+http://202.166.192.207/iptvlivestream/netBagmatiTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOSBBTSZoYXNoX3ZhbHVlPVVscTVrNklWVnZGeER0cDM4R0oxMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/News_Nepal_2021-05-03_11:05:04.png",News Nepal
+http://202.166.192.205/iptvlivestream/netNewsNepal1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOSBBTSZoYXNoX3ZhbHVlPVVscTVrNklWVnZGeER0cDM4R0oxMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Araniko_HD_2021-05-03_11:05:55.png",Araniko HD
+http://202.166.192.207/iptvlivestream/xraytv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOSBBTSZoYXNoX3ZhbHVlPVVscTVrNklWVnZGeER0cDM4R0oxMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Education_TV_2022-03-10_10:03:01.png",Education TV
+http://202.166.192.204/iptvlivestream/netEduTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzoyOSBBTSZoYXNoX3ZhbHVlPVVscTVrNklWVnZGeER0cDM4R0oxMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Rapti_Darpan_HD_2021-05-05_06:05:56.png",Rapti Darpan HD
+http://202.166.192.206/iptvlivestream/netRAPTITV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMCBBTSZoYXNoX3ZhbHVlPXJvcFpSbXIwTzY5VVMyV1RjS2ZnVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/_Capital_TV_HD_2022-03-10_10:03:23.png",Capital TV HD
+http://202.166.192.204/iptvlivestream/netCapitalTvHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMCBBTSZoYXNoX3ZhbHVlPXJvcFpSbXIwTzY5VVMyV1RjS2ZnVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/MUKUNDASEN_HD_2020-12-03_06:12:28.png",Mukundasen HD
+http://202.166.192.207:80/iptvlivestream/netMukundaSenTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMCBBTSZoYXNoX3ZhbHVlPXJvcFpSbXIwTzY5VVMyV1RjS2ZnVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/National_Gold_2020-11-13_07:11:05.jpg",National Gold
+http://202.166.192.206/iptvlivestream/NationalTVHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMCBBTSZoYXNoX3ZhbHVlPXJvcFpSbXIwTzY5VVMyV1RjS2ZnVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Jansanchar_TV_HD_2021-03-08_05:03:37.png",Jansanchar TV HD
+http://202.166.192.205/iptvlivestream/netJanaSanchar.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMSBBTSZoYXNoX3ZhbHVlPVJaaWFZVXhwdERBUDlDNnRKUFdWZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Channel_ACE_2021-05-03_11:05:57.png",Channel ACE
+http://202.166.192.205/iptvlivestream/netChannelAce.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMSBBTSZoYXNoX3ZhbHVlPVJaaWFZVXhwdERBUDlDNnRKUFdWZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Fewa_Television_2019-01-21_06:01:52.jpg",Fewa TV HD
+http://202.166.192.207/iptvlivestream/netFewatv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMSBBTSZoYXNoX3ZhbHVlPVJaaWFZVXhwdERBUDlDNnRKUFdWZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ARENA_TV_2021-05-05_08:05:06.png",Arena TV
+http://202.166.192.206/iptvlivestream/arenatv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMSBBTSZoYXNoX3ZhbHVlPVJaaWFZVXhwdERBUDlDNnRKUFdWZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Birat_Television_2022-03-10_10:03:07.png",Birat Television
+http://202.166.192.205/iptvlivestream/netBIRATTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMiBBTSZoYXNoX3ZhbHVlPUJnRFBNTitNenpjcU8ySitIdVdKOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Appan_TV_2021-05-05_08:05:33.png",Appan TV
+http://202.166.192.205/iptvlivestream/Appanfallback.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMiBBTSZoYXNoX3ZhbHVlPUJnRFBNTitNenpjcU8ySitIdVdKOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/My_TV_2019-10-22_03:10:19.png",My TV
+http://202.166.192.204/iptvlivestream/netMyTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMiBBTSZoYXNoX3ZhbHVlPUJnRFBNTitNenpjcU8ySitIdVdKOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/_TV_BIRGUNJ_2020-01-03_03:01:53.jpg",TV Birgunj
+http://202.166.192.205/iptvlivestream/netTvBirgunjHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMiBBTSZoYXNoX3ZhbHVlPUJnRFBNTitNenpjcU8ySitIdVdKOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Janakpur_TV_2022-03-10_10:03:39.png",Janakpur TV
+http://202.166.192.206/iptvlivestream/netJanakpurtv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMyBBTSZoYXNoX3ZhbHVlPTdIY3RRNTFKTGhaVnFNQTMwMU03cUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Tv_Today_Janakpur_2021-05-05_07:05:37.png",Tv Today Janakpur
+http://202.166.192.204/iptvlivestream/netTvTodayJkpr.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMyBBTSZoYXNoX3ZhbHVlPTdIY3RRNTFKTGhaVnFNQTMwMU03cUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_Nepal_TV_2021-05-05_07:05:08.png",Zee Nepal TV
+http://202.166.192.207/iptvlivestream/znepaltv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMyBBTSZoYXNoX3ZhbHVlPTdIY3RRNTFKTGhaVnFNQTMwMU03cUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/THARU_TELEVISION_2020-07-11_10:07:20.jpg",Tharu Television
+http://202.166.192.206/iptvlivestream/netTharuTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozMyBBTSZoYXNoX3ZhbHVlPTdIY3RRNTFKTGhaVnFNQTMwMU03cUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Times_TV_HD_2021-05-05_08:05:45.png",Times TV HD
+http://202.166.192.206/iptvlivestream/timestv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNCBBTSZoYXNoX3ZhbHVlPWtrZHdFR1F0QmFCem9QVUN0amZoRVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TEAM_TV_2020-07-02_12:07:04.jpg",TEAM TV
+http://202.166.192.204/iptvlivestream/netTeamTVnep.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNCBBTSZoYXNoX3ZhbHVlPWtrZHdFR1F0QmFCem9QVUN0amZoRVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/SAJHA_TV_2020-06-17_11:06:16.jpg",Sajha TV
+http://202.166.192.207/iptvlivestream/sajhatv.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/MOONLIGHT_TV_2020-06-11_12:06:16.jpg",Moonlight TV
+http://202.166.192.205/iptvlivestream/netANNATv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNCBBTSZoYXNoX3ZhbHVlPWtrZHdFR1F0QmFCem9QVUN0amZoRVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Namaste_TV_2018-12-02_04:12:39.jpg",Namaste TV
+http://202.166.192.204/iptvlivestream/namaste.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNSBBTSZoYXNoX3ZhbHVlPTFNcFFzQ3IxK2t3cTdBRk43NXdTM1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Buddha__TV_2018-11-13_04:11:26.jpg",Buddha  TV
+http://202.166.192.205/iptvlivestream/ch1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNSBBTSZoYXNoX3ZhbHVlPTFNcFFzQ3IxK2t3cTdBRk43NXdTM1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Bhairahawa_TV_2021-05-05_06:05:23.png",Bhairahawa TV
+http://202.166.192.207/iptvlivestream/netBhairahawa1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNSBBTSZoYXNoX3ZhbHVlPTFNcFFzQ3IxK2t3cTdBRk43NXdTM1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TV_1_HD_2022-03-10_10:03:03.png",TV 1 HD
+http://202.166.192.205/iptvlivestream/tv1hd.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNSBBTSZoYXNoX3ZhbHVlPTFNcFFzQ3IxK2t3cTdBRk43NXdTM1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Lumbini_TV_HD_2021-05-03_11:05:56.png",Lumbini TV HD
+http://202.166.192.204/iptvlivestream/netLumbiniTv1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNiBBTSZoYXNoX3ZhbHVlPTJwcGJtTkkyR0tQc2Frd0V4KzdwclE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BUDDHA_AWAAZ_2020-11-20_03:11:29.jpg",Buddha Awaaz
+http://202.166.192.206/iptvlivestream/Buddhaawajtv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNiBBTSZoYXNoX3ZhbHVlPTJwcGJtTkkyR0tQc2Frd0V4KzdwclE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Samaya_HD_2019-12-18_12:12:32.png",Samaya HD
+http://202.166.192.205/iptvlivestream/SamayaHDnep.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNiBBTSZoYXNoX3ZhbHVlPTJwcGJtTkkyR0tQc2Frd0V4KzdwclE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Suryodaya_2019-12-28_02:12:31.jpg",Suryodaya Television
+http://202.166.192.205/iptvlivestream/SuryadayaTv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNiBBTSZoYXNoX3ZhbHVlPTJwcGJtTkkyR0tQc2Frd0V4KzdwclE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Aam_Nepali_TV_HD_2021-05-04_02:05:28.png",Aam Nepali TV HD
+http://202.166.192.204/iptvlivestream/AamNepaliTv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNiBBTSZoYXNoX3ZhbHVlPTJwcGJtTkkyR0tQc2Frd0V4KzdwclE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/GNNHD_2022-12-09_04:12:18.png",GNNHD
+http://202.166.192.206/iptvlivestream/netPrabhuTv1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNyBBTSZoYXNoX3ZhbHVlPUlOY3VRa05oMkJjT0h6OUsya09uTWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/AKASH_TELEVISION_2021-05-03_11:05:55.png",AKASH TELEVISION
+http://202.166.192.206/iptvlivestream/netAakashTv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNyBBTSZoYXNoX3ZhbHVlPUlOY3VRa05oMkJjT0h6OUsya09uTWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/A1_TV_2021-05-03_11:05:29.png",A1 TV
+http://202.166.192.206/iptvlivestream/A1tv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNyBBTSZoYXNoX3ZhbHVlPUlOY3VRa05oMkJjT0h6OUsya09uTWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/KARUWA_TV_2021-01-26_04:01:23.jpg",Subhayatra TV
+http://202.166.192.206/iptvlivestream/KARUWATV.STREAM/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozNyBBTSZoYXNoX3ZhbHVlPUlOY3VRa05oMkJjT0h6OUsya09uTWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Saptarangi_2021-05-03_11:05:15.png",Saptarangi
+http://202.166.192.205/iptvlivestream/saptrangi.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOCBBTSZoYXNoX3ZhbHVlPSswbHMxRG1Kek5rdDlRY0pJVy8rMGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/RED_TV_2020-11-02_12:11:43.png",Red TV
+http://202.166.192.206/iptvlivestream/REDTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOCBBTSZoYXNoX3ZhbHVlPSswbHMxRG1Kek5rdDlRY0pJVy8rMGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Yes_Tv__2018-01-11_10:01:07.png",YES TV
+http://202.166.192.207/iptvlivestream/yestv_high.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOCBBTSZoYXNoX3ZhbHVlPSswbHMxRG1Kek5rdDlRY0pJVy8rMGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Gorkha_TV_HD_2020-11-02_03:11:01.jpg",Gorkha TV HD
+http://202.166.192.207/iptvlivestream/GorkhaTvHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOCBBTSZoYXNoX3ZhbHVlPSswbHMxRG1Kek5rdDlRY0pJVy8rMGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/INDRENI_TV_2020-11-02_12:11:19.jpg",Indreni TV
+http://202.166.192.206/iptvlivestream/indrenitv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOSBBTSZoYXNoX3ZhbHVlPVc1NHJVdUg3Mzh1Um42UWR3b3R5T1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Prithivi_TV_2020-11-04_11:11:14.png",Prithivi TV
+http://202.166.192.204/iptvlivestream/PrithiviTv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOSBBTSZoYXNoX3ZhbHVlPVc1NHJVdUg3Mzh1Um42UWR3b3R5T1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/M_Star_2021-01-26_09:01:52.jpg",M Star
+http://202.166.192.206/iptvlivestream/netMstarTv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOSBBTSZoYXNoX3ZhbHVlPVc1NHJVdUg3Mzh1Um42UWR3b3R5T1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BIJAYKILLA_HD_2021-05-04_02:05:00.png",Bijaykilla HD
+http://202.166.192.205/iptvlivestream/BijayKilla.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0MzozOSBBTSZoYXNoX3ZhbHVlPVc1NHJVdUg3Mzh1Um42UWR3b3R5T1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Siddhababa_2021-07-09_10:07:00.png",Siddhababa
+http://202.166.192.204:80/iptvlivestream/Siddhababa.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MCBBTSZoYXNoX3ZhbHVlPXJHQXRhcG5ZOGJJM1d0b2RTOFR0aWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Janaki_TV_HD_2021-07-09_10:07:36.png",Janaki TV HD
+http://202.166.192.207:80/iptvlivestream/JanakiTvHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MCBBTSZoYXNoX3ZhbHVlPXJHQXRhcG5ZOGJJM1d0b2RTOFR0aWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Tilotamma_HD_2023-08-23_11:08:46.png",Tilotamma HD
+http://202.166.192.205:80/iptvlivestream/netTillotamaTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MCBBTSZoYXNoX3ZhbHVlPXJHQXRhcG5ZOGJJM1d0b2RTOFR0aWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Devdaha_TV_2021-12-17_10:12:02.png",Devdaha TV
+http://202.166.192.204/iptvlivestream/netDevDaha1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MCBBTSZoYXNoX3ZhbHVlPXJHQXRhcG5ZOGJJM1d0b2RTOFR0aWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/City_One_HD_2021-09-20_06:09:13.png",City One HD
+http://202.166.192.207/iptvlivestream/netCity1HD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MSBBTSZoYXNoX3ZhbHVlPVRrRFd1OTNIR1pkR2FXRmswa2trVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Samata_TV_2021-09-20_06:09:29.png",Samata TV
+http://202.166.192.206/iptvlivestream/netSamataHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MSBBTSZoYXNoX3ZhbHVlPVRrRFd1OTNIR1pkR2FXRmswa2trVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Pokhara_TV_HD_2022-01-12_11:01:08.png",Pokhara TV HD
+http://202.166.192.207/iptvlivestream/netPokharaTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MSBBTSZoYXNoX3ZhbHVlPVRrRFd1OTNIR1pkR2FXRmswa2trVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Earth_News_HD_2022-08-18_10:08:08.png",Earth News HD
+http://202.166.192.205/iptvlivestream/netBBCEARTHNEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MSBBTSZoYXNoX3ZhbHVlPVRrRFd1OTNIR1pkR2FXRmswa2trVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Satya_Tathya_TV_2023-03-30_05:03:14.png",Satya Tathya TV
+http://202.166.192.204/iptvlivestream/SatyaTathyaTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MiBBTSZoYXNoX3ZhbHVlPVBHR1lTSUh2ZEYxQStSbXJDdW4xa1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sarokar_TV_2024-01-14_12:01:03.png",Sarokar TV
+http://202.166.192.204/iptvlivestream/SAROKARTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MiBBTSZoYXNoX3ZhbHVlPVBHR1lTSUh2ZEYxQStSbXJDdW4xa1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sanghu_TV_HD_2023-07-16_11:07:20.png",Sanghu TV HD
+http://202.166.192.204/iptvlivestream/SanghuTV.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MiBBTSZoYXNoX3ZhbHVlPVBHR1lTSUh2ZEYxQStSbXJDdW4xa1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Al_Jazeera_HD_2021-05-05_08:05:14.png",Al Jazeera HD
+http://202.166.192.206/iptvlivestream/netALJAZEERA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MiBBTSZoYXNoX3ZhbHVlPVBHR1lTSUh2ZEYxQStSbXJDdW4xa1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TRT_WORLD_HD_2021-05-05_08:05:19.png",TRT World HD
+http://202.166.192.204/iptvlivestream/netTRTWORLDHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MiBBTSZoYXNoX3ZhbHVlPVBHR1lTSUh2ZEYxQStSbXJDdW4xa1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/France_24_English_HD_2021-05-05_08:05:09.png",France 24 English HD
+http://202.166.192.206/iptvlivestream/netFRANCE241500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MyBBTSZoYXNoX3ZhbHVlPUZVd2NES1RFREVNSWFYTVNnSmM3UXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/News_Asia_HD_2021-05-05_08:05:54.png",News Asia HD
+http://202.166.192.207/iptvlivestream/netNewsAsia1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MyBBTSZoYXNoX3ZhbHVlPUZVd2NES1RFREVNSWFYTVNnSmM3UXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/RT_English_HD_2021-05-05_08:05:21.png",RT English HD
+http://202.166.192.207/iptvlivestream/netRT1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MyBBTSZoYXNoX3ZhbHVlPUZVd2NES1RFREVNSWFYTVNnSmM3UXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Times_Now_HD_2021-05-05_07:05:38.png",Times Now HD
+http://202.166.192.206/iptvlivestream/netTIMESNOW1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0MyBBTSZoYXNoX3ZhbHVlPUZVd2NES1RFREVNSWFYTVNnSmM3UXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/CGTN_HD_2021-05-05_06:05:03.png",CGTN HD
+http://202.166.192.206/iptvlivestream/netCGTNHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NCBBTSZoYXNoX3ZhbHVlPThKSWR3NUxSc21jcklOUkdrWnF2dnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BBC_News_2021-05-05_08:05:16.png",BBC News
+http://202.166.192.207/iptvlivestream/netBBCNEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NCBBTSZoYXNoX3ZhbHVlPThKSWR3NUxSc21jcklOUkdrWnF2dnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/CNN_2021-05-05_08:05:27.png",CNN
+http://202.166.192.206/iptvlivestream/netCNN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NCBBTSZoYXNoX3ZhbHVlPThKSWR3NUxSc21jcklOUkdrWnF2dnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Euro_News_2022-03-10_10:03:26.png",Euro News
+http://202.166.192.206/iptvlivestream/netEURO1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NCBBTSZoYXNoX3ZhbHVlPThKSWR3NUxSc21jcklOUkdrWnF2dnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Republic_TV_2018-05-09_02:05:28.jpg",REPUBLIC TV
+http://202.166.192.206/iptvlivestream/netREPUBLIC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NSBBTSZoYXNoX3ZhbHVlPXlEcURyS21PQmNOTWVJUzdNaXFjVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/News_X_HD_2018-08-15_03:08:10.png",News X
+http://202.166.192.206/iptvlivestream/netNEWSXHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NSBBTSZoYXNoX3ZhbHVlPXlEcURyS21PQmNOTWVJUzdNaXFjVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/PTV_WORLD_2019-02-17_06:02:52.png",PTV WORLD
+http://202.166.192.204/iptvlivestream/netPTVWORLD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NSBBTSZoYXNoX3ZhbHVlPXlEcURyS21PQmNOTWVJUzdNaXFjVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NDTV_24x7_2019-02-27_05:02:16.png",NDTV 24x7
+http://202.166.192.205/iptvlivestream/netNDTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NSBBTSZoYXNoX3ZhbHVlPXlEcURyS21PQmNOTWVJUzdNaXFjVkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/391.png",Aajtak
+http://202.166.192.205/iptvlivestream/netAAJTAK1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NiBBTSZoYXNoX3ZhbHVlPUNJNEZKc3U5cTUrcDE3MXg3VEdNVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ABP_News_2021-05-04_02:05:40.png",ABP News
+http://202.166.192.207/iptvlivestream/netABPNEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NiBBTSZoYXNoX3ZhbHVlPUNJNEZKc3U5cTUrcDE3MXg3VEdNVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/News18_India_2021-05-30_07:05:00.jpg",News18 India
+http://202.166.192.207/iptvlivestream/netIBN71500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NiBBTSZoYXNoX3ZhbHVlPUNJNEZKc3U5cTUrcDE3MXg3VEdNVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_News_2025-06-10_12:06:41.png",Zee News
+http://202.166.192.207/iptvlivestream/netZEENEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NiBBTSZoYXNoX3ZhbHVlPUNJNEZKc3U5cTUrcDE3MXg3VEdNVHc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/388.png",India News
+http://202.166.192.204/iptvlivestream/netINDIANEWSHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NyBBTSZoYXNoX3ZhbHVlPTNFYjZ6bVFWVEZ1UjdQdytsM3hUaUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/392.png",India TV
+http://202.166.192.204/iptvlivestream/netINDIATV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NyBBTSZoYXNoX3ZhbHVlPTNFYjZ6bVFWVEZ1UjdQdytsM3hUaUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DD_NEWS_2018-02-05_06:02:56.png",DD NEWS HD
+http://202.166.192.205/iptvlivestream/netDDNEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NyBBTSZoYXNoX3ZhbHVlPTNFYjZ6bVFWVEZ1UjdQdytsM3hUaUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ARY_News_2018-01-31_12:01:29.jpg",ARY NEWS
+http://202.166.192.205/iptvlivestream/netARYNEWS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0NyBBTSZoYXNoX3ZhbHVlPTNFYjZ6bVFWVEZ1UjdQdytsM3hUaUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/446.gif",Sahara Shamay
+http://202.166.192.205/iptvlivestream/netSAMAY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OCBBTSZoYXNoX3ZhbHVlPXc2R1FrU1BHQ2VFMHJ2SlZiMkErZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_Business_2021-05-05_08:05:05.png",Zee Business
+http://202.166.192.205/iptvlivestream/netBUSINESS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OCBBTSZoYXNoX3ZhbHVlPXc2R1FrU1BHQ2VFMHJ2SlZiMkErZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DD_KISHAN_2018-01-25_04:01:53.jpg",DD KISHAN
+http://202.166.192.206/iptvlivestream/netDDKISHAN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OCBBTSZoYXNoX3ZhbHVlPXc2R1FrU1BHQ2VFMHJ2SlZiMkErZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NDTV_INDIA_2019-02-27_05:02:31.png",NDTV INDIA
+http://202.166.192.206/iptvlivestream/netNDTVINDIA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OCBBTSZoYXNoX3ZhbHVlPXc2R1FrU1BHQ2VFMHJ2SlZiMkErZVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NDTV_Profit_2019-02-27_05:02:49.png",NDTV Profit
+http://202.166.192.204/iptvlivestream/netNDTVPROFIT1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OSBBTSZoYXNoX3ZhbHVlPWxROHVPUVRPTzE0UTJlWk1oSmpHN0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Entertainment_HD_2022-11-06_09:11:07.png",Sony Entertainment HD
+http://202.166.192.205/iptvlivedge/netSONYHD2500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OSBBTSZoYXNoX3ZhbHVlPWxROHVPUVRPTzE0UTJlWk1oSmpHN0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Colors_HD_2022-03-10_10:03:51.png",Colors HD
+http://202.166.192.207/iptvlivedge/netCOLORS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OSBBTSZoYXNoX3ZhbHVlPWxROHVPUVRPTzE0UTJlWk1oSmpHN0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_TV_HD_2025-06-10_12:06:59.png",Zee TV HD
+http://202.166.192.205/iptvlivedge/netZEETVHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo0OSBBTSZoYXNoX3ZhbHVlPWxROHVPUVRPTzE0UTJlWk1oSmpHN0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Plus_HD_2021-05-05_08:05:40.png",Star Plus HD
+http://202.166.192.207/iptvlivedge/netSTARPLUSHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MCBBTSZoYXNoX3ZhbHVlPVE3L1JJQmQxTEhVSUJrWVJ5SHpDRFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/AND_TV_HD_2025-06-10_12:06:47.png",AND TV HD
+http://202.166.192.204/iptvlivestream/netANDTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MCBBTSZoYXNoX3ZhbHVlPVE3L1JJQmQxTEhVSUJrWVJ5SHpDRFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Bharat_HD_2021-05-05_08:05:27.png",Star Bharat HD
+http://202.166.192.204/iptvlivedge/netLIFEOKHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MCBBTSZoYXNoX3ZhbHVlPVE3L1JJQmQxTEhVSUJrWVJ5SHpDRFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Sab_HD_2022-11-06_09:11:49.png",Sony Sab HD
+http://202.166.192.207/iptvlivestream/netSONYSABHD2500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MCBBTSZoYXNoX3ZhbHVlPVE3L1JJQmQxTEhVSUJrWVJ5SHpDRFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_World_HD_2018-08-15_03:08:59.png",Star World HD
+http://202.166.192.206/iptvlivestream/netSTARWORLDHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MCBBTSZoYXNoX3ZhbHVlPVE3L1JJQmQxTEhVSUJrWVJ5SHpDRFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_Cafe_HD_2025-06-10_12:06:19.png",Zee Cafe HD
+http://202.166.192.204/iptvlivestream/netZEECAFEHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MSBBTSZoYXNoX3ZhbHVlPXZkcEVBVWdSK0NHbHg3ZmV0WXVXTlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/COLORS_INFINITY_HD_2019-01-29_05:01:26.png",COLORS INFINITY HD
+http://202.166.192.205/iptvlivestream/netINFINITYHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MSBBTSZoYXNoX3ZhbHVlPXZkcEVBVWdSK0NHbHg3ZmV0WXVXTlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Fox_Life_HD_2022-03-10_10:03:23.png",Star Life HD
+http://202.166.192.204/iptvlivestream/netFOXLIFEHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MSBBTSZoYXNoX3ZhbHVlPXZkcEVBVWdSK0NHbHg3ZmV0WXVXTlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Disney_International_HD_2021-05-03_11:05:15.png",Disney International HD
+http://202.166.192.205/iptvlivestream/netDisneyIntHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MSBBTSZoYXNoX3ZhbHVlPXZkcEVBVWdSK0NHbHg3ZmV0WXVXTlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Plus_2020-10-29_01:10:08.png",Star Plus
+http://202.166.192.204/iptvlivestream/netSTARPLUSSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MiBBTSZoYXNoX3ZhbHVlPVZsWXVWcXIrTHVIY3J4aEh3QkY4cVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Bharat_2021-01-20_07:01:58.jpg",Star Bharat
+http://202.166.192.205/iptvlivestream/netStarBharatSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MiBBTSZoYXNoX3ZhbHVlPVZsWXVWcXIrTHVIY3J4aEh3QkY4cVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Comedy_Central_2022-03-10_10:03:49.png",Comedy Central
+http://202.166.192.207/iptvlivestream/netCOMEDYCENTRALHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MiBBTSZoYXNoX3ZhbHVlPVZsWXVWcXIrTHVIY3J4aEh3QkY4cVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/302.png",AXN
+http://202.166.192.206/iptvlivestream/netAXN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MiBBTSZoYXNoX3ZhbHVlPVZsWXVWcXIrTHVIY3J4aEh3QkY4cVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Colors_Infinity__2020-10-29_01:10:38.png",Colors Infinity
+http://202.166.192.206/iptvlivestream/netCOLORSINFINITYSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MyBBTSZoYXNoX3ZhbHVlPUNNOEdFL3hxOUdOUmJ0V2ZzSCtDRVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Colors_SD_2020-10-25_08:10:28.png",Colors SD
+http://202.166.192.204/iptvlivestream/netColorsSD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MyBBTSZoYXNoX3ZhbHVlPUNNOEdFL3hxOUdOUmJ0V2ZzSCtDRVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Entertainment_2023-05-29_04:05:28.png",Sony Entertainment
+http://202.166.192.204/iptvlivestream/netSONY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MyBBTSZoYXNoX3ZhbHVlPUNNOEdFL3hxOUdOUmJ0V2ZzSCtDRVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Sab_2021-05-05_08:05:26.png",Sony Sab
+http://202.166.192.205/iptvlivestream/netSONYSABTV2500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1MyBBTSZoYXNoX3ZhbHVlPUNNOEdFL3hxOUdOUmJ0V2ZzSCtDRVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Pal_2021-05-05_08:05:16.png",Sony Pal
+http://202.166.192.206/iptvlivestream/netSONYPAL1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NCBBTSZoYXNoX3ZhbHVlPVgyWlpNS1R4QTBHazhkTG44RE44M0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ZEE_Anmol_2020-10-24_08:10:24.png",ZEE Anmol
+http://202.166.192.205/iptvlivestream/netZEETV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NCBBTSZoYXNoX3ZhbHVlPVgyWlpNS1R4QTBHazhkTG44RE44M0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/332.png",Star Utsav
+http://202.166.192.206/iptvlivestream/netSTARUTSAV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NCBBTSZoYXNoX3ZhbHVlPVgyWlpNS1R4QTBHazhkTG44RE44M0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DD_NATIONAL_2018-01-25_04:01:48.jpg",DD NATIONAL HD
+http://202.166.192.207/iptvlivestream/netDDHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NCBBTSZoYXNoX3ZhbHVlPVgyWlpNS1R4QTBHazhkTG44RE44M0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DD_Bharati_2020-03-30_11:03:16.jpg",DD Bharati
+http://202.166.192.206/iptvlivestream/netDDBharati1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NSBBTSZoYXNoX3ZhbHVlPTJDbFEvUEthdzF0UkZPaDhWVlUrK3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Dangal_2018-05-27_04:05:38.png",DANGAL
+http://202.166.192.207/iptvlivestream/netDANGAL1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NSBBTSZoYXNoX3ZhbHVlPTJDbFEvUEthdzF0UkZPaDhWVlUrK3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sahara_One_2018-08-14_04:08:44.png",Sahara One
+http://202.166.192.206/iptvlivestream/netSAHARA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NSBBTSZoYXNoX3ZhbHVlPTJDbFEvUEthdzF0UkZPaDhWVlUrK3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/499.jpg",Hum Sitaray
+http://202.166.192.205/iptvlivestream/netSITARAY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NSBBTSZoYXNoX3ZhbHVlPTJDbFEvUEthdzF0UkZPaDhWVlUrK3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ARY_Family_2018-01-31_12:01:02.jpg",ARY FAMILY
+http://202.166.192.205/iptvlivestream/netARYFAMILY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NiBBTSZoYXNoX3ZhbHVlPWxWMnpUeTJIM0hiakNZVmYvellwbGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ARY_Zindagi_2018-01-31_12:01:56.jpg",ARY ZINDAGI
+http://202.166.192.206/iptvlivestream/netARYZINDAGI1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NiBBTSZoYXNoX3ZhbHVlPWxWMnpUeTJIM0hiakNZVmYvellwbGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ARY_Digital_2018-01-31_12:01:18.jpg",ARY DIGITAL
+http://202.166.192.204/iptvlivestream/netARYDIGITAL1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NiBBTSZoYXNoX3ZhbHVlPWxWMnpUeTJIM0hiakNZVmYvellwbGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/RISHTEY_2021-05-05_08:05:08.png",Colors Rishtey
+http://202.166.192.205/iptvlivestream/netRISHTEY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NiBBTSZoYXNoX3ZhbHVlPWxWMnpUeTJIM0hiakNZVmYvellwbGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/375.png",Anjan TV
+http://202.166.192.206/iptvlivestream/netANJANTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NyBBTSZoYXNoX3ZhbHVlPUlCR29EUENNMEtPQy9JUUw3bEtnZ2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Jalsha_2019-02-11_11:02:57.png",Star Jalsha
+http://202.166.192.206/iptvlivestream/netSTARJALSHA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NyBBTSZoYXNoX3ZhbHVlPUlCR29EUENNMEtPQy9JUUw3bEtnZ2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/PTC_Punjabi_2019-02-07_12:02:16.png",PTC Punjabi
+http://202.166.192.207/iptvlivestream/netPTCPUNJABI1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NyBBTSZoYXNoX3ZhbHVlPUlCR29EUENNMEtPQy9JUUw3bEtnZ2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NDTV_Good_Times_2019-02-27_05:02:45.png",NDTV Good Times
+http://202.166.192.207/iptvlivestream/netNDTVGOODTIME.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1NyBBTSZoYXNoX3ZhbHVlPUlCR29EUENNMEtPQy9JUUw3bEtnZ2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/HBO_HD_2021-05-05_08:05:02.png",HBO HD
+http://202.166.192.205/iptvlivestream/netHBOHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OCBBTSZoYXNoX3ZhbHVlPVNWc2ZOV1lvR1EwU1lGMnA4S1QwOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/HBO_Signature_HD_2021-05-05_08:05:16.png",HBO Signature HD
+http://202.166.192.204/iptvlivestream/netHBOSIGNATURE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OCBBTSZoYXNoX3ZhbHVlPVNWc2ZOV1lvR1EwU1lGMnA4S1QwOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/HBO_Family_HD_2021-05-05_08:05:36.png",HBO Family HD
+http://202.166.192.207/iptvlivestream/netHBOFAMILY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OCBBTSZoYXNoX3ZhbHVlPVNWc2ZOV1lvR1EwU1lGMnA4S1QwOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/HBO_Hits_HD_2021-05-05_08:05:51.png",HBO Hits HD
+http://202.166.192.207/iptvlivestream/netHBOHITS_HIGH.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OCBBTSZoYXNoX3ZhbHVlPVNWc2ZOV1lvR1EwU1lGMnA4S1QwOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/CINEMAX_HD_2021-05-05_08:05:41.png",Cinemax HD
+http://202.166.192.207/iptvlivestream/netCINEMAXHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OCBBTSZoYXNoX3ZhbHVlPVNWc2ZOV1lvR1EwU1lGMnA4S1QwOVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/CinemaWorld_2020-03-11_04:03:06.jpg",CinemaWorld
+http://202.166.192.207/iptvlivestream/netCinemaWOrld1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OSBBTSZoYXNoX3ZhbHVlPTNDanBRU3ZPT01idGlKalBsRE91QkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Movies_HD_2020-12-17_10:12:31.png",Star Movies HD
+http://202.166.192.204/iptvlivestream/netStarMoviesHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OSBBTSZoYXNoX3ZhbHVlPTNDanBRU3ZPT01idGlKalBsRE91QkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Movies_Select_HD_2020-12-18_09:12:58.png",Star Movies Select HD
+http://202.166.192.207/iptvlivestream/netStarMoviesSelectHD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OSBBTSZoYXNoX3ZhbHVlPTNDanBRU3ZPT01idGlKalBsRE91QkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Max_HD_2022-11-06_09:11:22.png",Sony Max HD
+http://202.166.192.206/iptvlivedge/netSONYMAXHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0Mzo1OSBBTSZoYXNoX3ZhbHVlPTNDanBRU3ZPT01idGlKalBsRE91QkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/COLORS_CINEPLEX_HD_2021-05-05_08:05:36.png",Color Cineplex HD
+http://202.166.192.205/iptvlivestream/netCINEPLEXHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMCBBTSZoYXNoX3ZhbHVlPXY3di9yZ01meUZicFpyK1d6SmxPblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/AND_Pictures_HD_2025-06-10_12:06:15.png",AND Pictures HD
+http://202.166.192.204/iptvlivestream/netPICTURESHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMCBBTSZoYXNoX3ZhbHVlPXY3di9yZ01meUZicFpyK1d6SmxPblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Gold_HD_2022-03-10_10:03:11.png",Star Gold HD
+http://202.166.192.206/iptvlivedge/netSTARGOLDHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMCBBTSZoYXNoX3ZhbHVlPXY3di9yZ01meUZicFpyK1d6SmxPblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_Cinema_HD_2025-06-10_12:06:38.png",Zee Cinema HD
+http://202.166.192.206/iptvlivedge/netZEECINEMAHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMCBBTSZoYXNoX3ZhbHVlPXY3di9yZ01meUZicFpyK1d6SmxPblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Gold_Select_HD_2021-05-05_08:05:46.png",Star Gold Select HD
+http://202.166.192.204/iptvlivestream/netSTARGOLDSELECTHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMSBBTSZoYXNoX3ZhbHVlPWlWWGh6SWk1TGpjcXFYYnE5cEd4SWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Movies_2021-01-20_07:01:12.jpg",Star Movies
+http://202.166.192.204/iptvlivestream/netStarMoviesSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMSBBTSZoYXNoX3ZhbHVlPWlWWGh6SWk1TGpjcXFYYnE5cEd4SWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Gold_2020-10-29_01:10:12.png",Star Gold
+http://202.166.192.206/iptvlivestream/netSTARGOLDSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMSBBTSZoYXNoX3ZhbHVlPWlWWGh6SWk1TGpjcXFYYnE5cEd4SWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/B4U_Kadak_2019-12-18_04:12:12.png",B4U Kadak
+http://202.166.192.205/iptvlivestream/netB4Ukadak1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMSBBTSZoYXNoX3ZhbHVlPWlWWGh6SWk1TGpjcXFYYnE5cEd4SWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/B4U_Movies_APAC_2020-07-05_02:07:10.png",B4U Movies APAC
+http://202.166.192.207/iptvlivestream/netB4UASIAPACIFIC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMiBBTSZoYXNoX3ZhbHVlPTNtWGZFOGViSXM1TkpSM2xOTFNvblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/AND_Pictures_2025-06-10_12:06:46.png",AND Pictures
+http://202.166.192.205/iptvlivestream/netANDPICTURE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMiBBTSZoYXNoX3ZhbHVlPTNtWGZFOGViSXM1TkpSM2xOTFNvblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Max_2022-11-06_09:11:13.png",Sony Max
+http://202.166.192.207/iptvlivestream/netSETMAX1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMiBBTSZoYXNoX3ZhbHVlPTNtWGZFOGViSXM1TkpSM2xOTFNvblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_Bollywood_2025-06-10_12:06:45.png",Zee Bollywood
+http://202.166.192.204/iptvlivestream/netZEECINEMA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMiBBTSZoYXNoX3ZhbHVlPTNtWGZFOGViSXM1TkpSM2xOTFNvblE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Gold_2_2021-05-05_08:05:29.png",Star Gold 2
+http://202.166.192.207/iptvlivestream/netMOVIESOK1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMyBBTSZoYXNoX3ZhbHVlPTFyZllzWVlaVkxJd3IrQnNFY1d6bWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Max_2_2022-11-06_09:11:55.png",Sony Max 2
+http://202.166.192.205/iptvlivestream/netMAXTWO1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMyBBTSZoYXNoX3ZhbHVlPTFyZllzWVlaVkxJd3IrQnNFY1d6bWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Gold_Select_2022-03-10_10:03:42.png",Star Gold Select
+http://202.166.192.205/iptvlivestream/netSTARGOLDSELECT1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMyBBTSZoYXNoX3ZhbHVlPTFyZllzWVlaVkxJd3IrQnNFY1d6bWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_Action_2025-06-10_12:06:22.png",Zee Action
+http://202.166.192.207/iptvlivestream/netZEEACTIONSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowMyBBTSZoYXNoX3ZhbHVlPTFyZllzWVlaVkxJd3IrQnNFY1d6bWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/321.png",B4U Movies
+http://202.166.192.206/iptvlivestream/netB4UMOVIES1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNCBBTSZoYXNoX3ZhbHVlPWV3Z0JaN3VlUjljR0FDU0FGRnJ5RFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Pix_2022-11-06_09:11:54.png",Sony Pix
+http://202.166.192.205/iptvlivestream/netSONYPIX1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNCBBTSZoYXNoX3ZhbHVlPWV3Z0JaN3VlUjljR0FDU0FGRnJ5RFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/379.png",WB
+http://202.166.192.206/iptvlivestream/netWB1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNCBBTSZoYXNoX3ZhbHVlPWV3Z0JaN3VlUjljR0FDU0FGRnJ5RFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Lotus_Macau_HD_2021-05-05_08:05:41.png",Lotus Macau HD
+http://202.166.192.206/iptvlivestream/netLOTUSMACAU1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNCBBTSZoYXNoX3ZhbHVlPWV3Z0JaN3VlUjljR0FDU0FGRnJ5RFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Cinema_TV_2019-10-24_10:10:22.png",Cinema TV
+http://202.166.192.205/iptvlivestream/netCINEMATV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNSBBTSZoYXNoX3ZhbHVlPSsvWm1WbDRxbU55K1RKdy83V2RFSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Filmy_2018-03-05_11:03:56.png",FILMY
+http://202.166.192.204/iptvlivestream/netFILMY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNSBBTSZoYXNoX3ZhbHVlPSsvWm1WbDRxbU55K1RKdy83V2RFSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/466.png",Bhojpuri Cinema
+http://202.166.192.205/iptvlivestream/netBHOJPURI1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNSBBTSZoYXNoX3ZhbHVlPSsvWm1WbDRxbU55K1RKdy83V2RFSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/439.png",Dabangg
+http://202.166.192.207/iptvlivestream/netDABANGG1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNSBBTSZoYXNoX3ZhbHVlPSsvWm1WbDRxbU55K1RKdy83V2RFSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Manoranjan_TV_2018-02-05_06:02:31.png",Manoranjan TV
+http://202.166.192.207/iptvlivestream/netMANORANJAN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNiBBTSZoYXNoX3ZhbHVlPXRETHhWME9obDlKNnd4ZUZNc3NvMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Enterr10_Movies_2020-10-02_05:10:58.png",Enterr10 Movies
+http://202.166.192.205/iptvlivestream/netENTER1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNiBBTSZoYXNoX3ZhbHVlPXRETHhWME9obDlKNnd4ZUZNc3NvMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Utsav_Movies_2021-05-05_08:05:55.png",Star Utsav Movies
+http://202.166.192.207/iptvlivestream/netSTARMOVIES1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNiBBTSZoYXNoX3ZhbHVlPXRETHhWME9obDlKNnd4ZUZNc3NvMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/416.png",UTV Movies
+http://202.166.192.204/iptvlivestream/netUTVMOVIES.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNiBBTSZoYXNoX3ZhbHVlPXRETHhWME9obDlKNnd4ZUZNc3NvMEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/432.png",HOUSE FULL MOVIES
+http://202.166.192.204/iptvlivestream/netHOUSEFULLMOVIES1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNyBBTSZoYXNoX3ZhbHVlPU1CN21TeWpDYXFnVjZvdHMzb0lheVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Manoranjan_Movies_2019-02-03_01:02:31.png",Manoranjan Movies
+http://202.166.192.205/iptvlivestream/netMANORANJANMOVIES1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNyBBTSZoYXNoX3ZhbHVlPU1CN21TeWpDYXFnVjZvdHMzb0lheVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_Classic_2025-06-10_12:06:01.png",Zee Classic
+http://202.166.192.206/iptvlivestream/netLIVINGFOODZ1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNyBBTSZoYXNoX3ZhbHVlPU1CN21TeWpDYXFnVjZvdHMzb0lheVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sports18_2024-08-18_11:08:10.png",Sports18
+http://202.166.192.205:80/iptvsports/Sports18HD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNyBBTSZoYXNoX3ZhbHVlPU1CN21TeWpDYXFnVjZvdHMzb0lheVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_1_HD_2022-11-06_09:11:20.png",Sony Sports Ten 1 HD
+http://202.166.192.204/iptvsports/netTEN1HD.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowNyBBTSZoYXNoX3ZhbHVlPU1CN21TeWpDYXFnVjZvdHMzb0lheVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_2_HD_2022-11-06_09:11:37.png",Sony Sports Ten 2 HD
+http://202.166.192.206/iptvsports/netTEN2HDstb.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOCBBTSZoYXNoX3ZhbHVlPVhwcnBjSjNaZ2RzWTZMSzJwVW9Oenc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_3_HD_2022-11-06_09:11:56.png",Sony Sports Ten 3 HD
+http://202.166.192.206/iptvsports/TEN3HDstb.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOCBBTSZoYXNoX3ZhbHVlPVhwcnBjSjNaZ2RzWTZMSzJwVW9Oenc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_5_HD_2022-11-06_09:11:31.png",Sony Sports Ten 5 HD
+http://202.166.192.207/iptvsports/netSIXHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOCBBTSZoYXNoX3ZhbHVlPVhwcnBjSjNaZ2RzWTZMSzJwVW9Oenc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/SONY_ESPN_HD_2018-08-15_03:08:06.png",SONY ESPN HD
+http://202.166.192.204/iptvsports/netESPNHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOCBBTSZoYXNoX3ZhbHVlPVhwcnBjSjNaZ2RzWTZMSzJwVW9Oenc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_1_HD_2021-05-05_08:05:14.png",Star Sports 1 HD
+http://202.166.192.207/iptvsports/netSTARSPORTS1HD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOSBBTSZoYXNoX3ZhbHVlPTNZL2duQ015UElCeWVXUkVnR3lnZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_2_HD_2021-05-05_08:05:28.png",Star Sports 2 HD
+http://202.166.192.207/iptvlivestream/netSTARSPORTS2HD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOSBBTSZoYXNoX3ZhbHVlPTNZL2duQ015UElCeWVXUkVnR3lnZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_1_HD_Hindi_2022-03-10_10:03:52.png",Star Sports 1 HD Hindi
+http://202.166.192.207/iptvsports/netSTARSPORTS3HD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOSBBTSZoYXNoX3ZhbHVlPTNZL2duQ015UElCeWVXUkVnR3lnZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_Select_1_HD_2021-05-05_08:05:25.png",Star Sports Select 1 HD
+http://202.166.192.207/iptvsports/netSELECTHD11500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDowOSBBTSZoYXNoX3ZhbHVlPTNZL2duQ015UElCeWVXUkVnR3lnZFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_Select_2_HD_2021-05-05_08:05:44.png",Star Sports Select 2 HD
+http://202.166.192.207/iptvsports/netSTARSELECTHD21500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMCBBTSZoYXNoX3ZhbHVlPWdyWVB2ek9LZVdvUnBDVkh5RDUwSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_Select_1_sd_2021-05-05_08:05:39.png",Star Sports Select 1 sd
+http://202.166.192.206/iptvlivestream/netSELECT1SD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMCBBTSZoYXNoX3ZhbHVlPWdyWVB2ek9LZVdvUnBDVkh5RDUwSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_Select_2__2018-09-23_01:09:15.jpg",Star Sports Select 2
+http://202.166.192.205/iptvlivestream/netSELECTSD21500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMCBBTSZoYXNoX3ZhbHVlPWdyWVB2ek9LZVdvUnBDVkh5RDUwSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/SETANTA_SPORTS_ASIA_HD_2018-08-15_03:08:43.png",Setanta HD
+http://202.166.192.205/iptvlivestream/netSETANTA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMCBBTSZoYXNoX3ZhbHVlPWdyWVB2ek9LZVdvUnBDVkh5RDUwSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/1_Sports_2020-07-26_01:07:38.png",1 Sports
+http://202.166.192.204/iptvlivestream/netDSPORTSHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMSBBTSZoYXNoX3ZhbHVlPWxBTnJGcHZvaDZhYnNCV0dYNmJPU3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_1_2023-05-29_04:05:58.png",Sony Sports Ten 1
+http://202.166.192.204/iptvlivestream/netTENSPORTSONE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMSBBTSZoYXNoX3ZhbHVlPWxBTnJGcHZvaDZhYnNCV0dYNmJPU3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_2_2023-05-29_04:05:18.png",Sony Sports Ten 2
+http://202.166.192.205/iptvlivestream/netTENSPORTSTWO1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMSBBTSZoYXNoX3ZhbHVlPWxBTnJGcHZvaDZhYnNCV0dYNmJPU3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_3_2023-05-29_04:05:36.png",Sony Sports Ten 3
+http://202.166.192.206/iptvlivestream/netTENSPORTSTHREE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMSBBTSZoYXNoX3ZhbHVlPWxBTnJGcHZvaDZhYnNCV0dYNmJPU3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_Ten_5__2023-05-29_04:05:53.png",Sony Sports Ten 5
+http://202.166.192.205/iptvlivestream/netSONYSIX1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMiBBTSZoYXNoX3ZhbHVlPWFKYTZOTzg3VVkyRVNXTFYxaHkvV1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_ESPN_2018-08-15_03:08:31.png",Sony ESPN
+http://202.166.192.207/iptvsports/netSONYESPN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMiBBTSZoYXNoX3ZhbHVlPWFKYTZOTzg3VVkyRVNXTFYxaHkvV1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_1_2021-05-05_08:05:08.png",Star Sports 1 SD
+http://202.166.192.206/iptvsports/netSTARSPORTS1SD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMiBBTSZoYXNoX3ZhbHVlPWFKYTZOTzg3VVkyRVNXTFYxaHkvV1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/STAR_SPORTS_2_2021-05-05_08:05:13.png",Star Sports 2 SD
+http://202.166.192.205/iptvlivestream/netSTARSPORTS2SD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMiBBTSZoYXNoX3ZhbHVlPWFKYTZOTzg3VVkyRVNXTFYxaHkvV1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Star_Sports_1Hindi_2022-03-10_10:03:10.png",Star Sports 1Hindi
+http://202.166.192.206/iptvlivestream/netstarsportsS3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMyBBTSZoYXNoX3ZhbHVlPW9Vc0tpcjZ4ZGxkMlpNa2N6OXVTSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DD_SPORTS_2021-05-05_08:05:53.png",DD Sports
+http://202.166.192.207/iptvlivestream/netDDSPORTS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMyBBTSZoYXNoX3ZhbHVlPW9Vc0tpcjZ4ZGxkMlpNa2N6OXVTSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/PTV_SPORTS_2019-02-17_05:02:48.png",PTV SPORTS
+http://202.166.192.207/iptvlivestream/netPTVSPORTS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMyBBTSZoYXNoX3ZhbHVlPW9Vc0tpcjZ4ZGxkMlpNa2N6OXVTSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Action_Sports__HD_1_2021-09-13_10:09:21.jpg",Action Sports  HD 1
+http://202.166.192.206/iptvlivestream/netACTIONSPORTSHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxMyBBTSZoYXNoX3ZhbHVlPW9Vc0tpcjZ4ZGxkMlpNa2N6OXVTSkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/A_Sports_HD_2023-02-05_04:02:30.png",A Sports HD
+http://202.166.192.206/iptvlivestream/netASPORTSHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNCBBTSZoYXNoX3ZhbHVlPURRWEpkQ29Tc2FERTlpY0xkamNyRmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/J_Music_HD_2018-08-14_04:08:48.png",J MUSIC HD
+http://202.166.192.207/iptvlivestream/netJmusic1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNCBBTSZoYXNoX3ZhbHVlPURRWEpkQ29Tc2FERTlpY0xkamNyRmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nat_Geo_Music_HD_2018-02-14_09:02:16.png",NAT GEO MUSIC HD
+http://202.166.192.206/iptvlivestream/netNATGEOMUSIC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNCBBTSZoYXNoX3ZhbHVlPURRWEpkQ29Tc2FERTlpY0xkamNyRmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/VH1_HD_2019-04-03_05:04:40.png",VH1 HD
+http://202.166.192.204/iptvlivestream/netVH1HD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNCBBTSZoYXNoX3ZhbHVlPURRWEpkQ29Tc2FERTlpY0xkamNyRmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/MTV_HD_+_2021-06-13_06:06:41.jpg",MTV HD +
+http://202.166.192.207/iptvlivestream/netMTVHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNSBBTSZoYXNoX3ZhbHVlPXhxM2grdm9CcFU1T1BCS0N4ZHRkd3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/MTV_Beats_HD__2022-03-10_10:03:54.png",MTV Beats HD
+http://202.166.192.205/iptvlivestream/netMTVBEATSHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNSBBTSZoYXNoX3ZhbHVlPXhxM2grdm9CcFU1T1BCS0N4ZHRkd3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/M_Tunes_Plus_2022-03-10_10:03:21.png",M Tunes Plus
+http://202.166.192.206/iptvlivestream/netMtunesHd1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNSBBTSZoYXNoX3ZhbHVlPXhxM2grdm9CcFU1T1BCS0N4ZHRkd3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/B4U_Music_APAC_2022-02-22_06:02:56.jpg",B4U Music APAC
+http://202.166.192.204/iptvlivestream/9xm.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNSBBTSZoYXNoX3ZhbHVlPXhxM2grdm9CcFU1T1BCS0N4ZHRkd3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/VH1__2022-03-10_10:03:51.png",VH1
+http://202.166.192.206/iptvlivestream/netVH11500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNSBBTSZoYXNoX3ZhbHVlPXhxM2grdm9CcFU1T1BCS0N4ZHRkd3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/9X_O_2018-02-05_06:02:57.png",9X O
+http://202.166.192.205/iptvlivestream/net9XO1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNiBBTSZoYXNoX3ZhbHVlPUo4eE5mMTFrU216SHV5aVNXNkhQM2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/9X_Tashan_2019-09-15_01:09:34.jpg",9X Tashan
+http://202.166.192.204/iptvlivestream/net9xTASHAN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNiBBTSZoYXNoX3ZhbHVlPUo4eE5mMTFrU216SHV5aVNXNkhQM2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/304.png",9x Jalwa
+http://202.166.192.207/iptvlivestream/net9XJALWA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNiBBTSZoYXNoX3ZhbHVlPUo4eE5mMTFrU216SHV5aVNXNkhQM2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/311.png",B4U Music
+http://202.166.192.206/iptvlivestream/netB4UMUSIC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNiBBTSZoYXNoX3ZhbHVlPUo4eE5mMTFrU216SHV5aVNXNkhQM2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Mastiii_2018-01-08_04:01:54.png",MASTIII
+http://202.166.192.207/iptvlivestream/netMASTI1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNyBBTSZoYXNoX3ZhbHVlPUhqUVVYMGZ4Z3F3SXMwM1ZXR25CcXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/MTV_2020-11-02_12:11:00.png",MTV
+http://202.166.192.205/iptvlivestream/netMTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNyBBTSZoYXNoX3ZhbHVlPUhqUVVYMGZ4Z3F3SXMwM1ZXR25CcXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/245.png",Sony MIX
+http://202.166.192.205/iptvlivestream/netSONYMIX1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNyBBTSZoYXNoX3ZhbHVlPUhqUVVYMGZ4Z3F3SXMwM1ZXR25CcXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zee_ETC_Bollywood_2019-08-07_05:08:45.png",Zee ETC Bollywood
+http://202.166.192.207/iptvlivestream/netETC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxNyBBTSZoYXNoX3ZhbHVlPUhqUVVYMGZ4Z3F3SXMwM1ZXR25CcXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ZING_2021-05-05_08:05:47.png",Zing
+http://202.166.192.207/iptvlivestream/netZING1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOCBBTSZoYXNoX3ZhbHVlPXJVdE9WRjl2RjhySlVxMGxoSmkyYnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Zoom_2021-05-05_08:05:36.png",Zoom
+http://202.166.192.204/iptvlivestream/netZOOM1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOCBBTSZoYXNoX3ZhbHVlPXJVdE9WRjl2RjhySlVxMGxoSmkyYnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/452.png",E 24
+http://202.166.192.205/iptvlivestream/netE241500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOCBBTSZoYXNoX3ZhbHVlPXJVdE9WRjl2RjhySlVxMGxoSmkyYnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/I_Love__2020-01-12_02:01:21.png",I Love
+http://202.166.192.207/iptvlivestream/netILOVE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOCBBTSZoYXNoX3ZhbHVlPXJVdE9WRjl2RjhySlVxMGxoSmkyYnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ARY_Musik_2018-01-31_12:01:53.png",ARY Musik
+http://202.166.192.207/iptvlivestream/netARYMUSIC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOSBBTSZoYXNoX3ZhbHVlPWlFS2w0bkhLTkdKak5qVS81U3R1VEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/INSYNC_2018-11-23_05:11:38.png",INSYNC
+http://202.166.192.205/iptvlivestream/netINSYNC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOSBBTSZoYXNoX3ZhbHVlPWlFS2w0bkhLTkdKak5qVS81U3R1VEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sangeet_Bhojpuri_2018-02-05_06:02:01.png",Sangeet Bhojpuri
+http://202.166.192.204/iptvlivestream/netSANGEETBHOJPURI1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOSBBTSZoYXNoX3ZhbHVlPWlFS2w0bkhLTkdKak5qVS81U3R1VEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Bindass_2020-05-21_11:05:39.jpg",Bindass
+http://202.166.192.207/iptvlivestream/netBINDASS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoxOSBBTSZoYXNoX3ZhbHVlPWlFS2w0bkhLTkdKak5qVS81U3R1VEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/CBeebies_Asia_HD_2018-12-30_05:12:45.png",CBeebies HD
+http://202.166.192.205/iptvlivestream/netCB1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMCBBTSZoYXNoX3ZhbHVlPW9RaDRnTnZxa0RkRExkN1VSSG9vUnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BABY_TV_HD_2018-08-15_11:08:33.png",BABY TV HD
+http://202.166.192.205/iptvlivestream/netBABY1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMCBBTSZoYXNoX3ZhbHVlPW9RaDRnTnZxa0RkRExkN1VSSG9vUnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NICKELODEON_HD_2018-08-15_04:08:37.png",NICKELODEON HD
+http://202.166.192.207/iptvlivestream/netNICKHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMCBBTSZoYXNoX3ZhbHVlPW9RaDRnTnZxa0RkRExkN1VSSG9vUnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Cartoon_Network_2018-08-15_11:08:44.png",Cartoon Network
+http://202.166.192.204/iptvlivestream/netCN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMCBBTSZoYXNoX3ZhbHVlPW9RaDRnTnZxa0RkRExkN1VSSG9vUnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nick_Jr_2021-05-05_08:05:12.png",Nick Jr
+http://202.166.192.205/iptvlivestream/netNICKJR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMSBBTSZoYXNoX3ZhbHVlPVdFVEtjRHA4bngzT29Tc2RYa0s0a0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Hungama_TV_2021-01-13_09:01:15.png",Hungama TV
+http://202.166.192.205/iptvlivestream/netHungama1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMSBBTSZoYXNoX3ZhbHVlPVdFVEtjRHA4bngzT29Tc2RYa0s0a0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nick_India_2021-05-05_07:05:02.png",Nick India
+http://202.166.192.205/iptvlivestream/netNICK1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMSBBTSZoYXNoX3ZhbHVlPVdFVEtjRHA4bngzT29Tc2RYa0s0a0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Super_Hungama_2022-03-07_06:03:52.jpg",Super Hungama
+http://202.166.192.206/iptvlivestream/netDISNEYXD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMSBBTSZoYXNoX3ZhbHVlPVdFVEtjRHA4bngzT29Tc2RYa0s0a0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Disney_Junior_2021-05-05_08:05:31.png",Disney Junior
+http://202.166.192.207/iptvlivestream/netDISNEYJUNIOR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMiBBTSZoYXNoX3ZhbHVlPUJ4OXVRWmFQSGtkZDl2UFhmVGJGL3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Disney_Channel_2021-05-05_08:05:54.png",Disney Channel
+http://202.166.192.205/iptvlivestream/netDISNEYCHANNEL1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMiBBTSZoYXNoX3ZhbHVlPUJ4OXVRWmFQSGtkZDl2UFhmVGJGL3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Discovery_Kids_2019-11-06_08:11:28.png",Discovery Kids
+http://202.166.192.205/iptvlivestream/netDISCOVERYKIDS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMiBBTSZoYXNoX3ZhbHVlPUJ4OXVRWmFQSGtkZDl2UFhmVGJGL3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Lolly_Kids_2019-12-18_01:12:28.png",Lolly Kids HD
+http://202.166.192.206/iptvlivestream/Lolykids.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMiBBTSZoYXNoX3ZhbHVlPUJ4OXVRWmFQSGtkZDl2UFhmVGJGL3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nickelodeon_Sonic_2021-01-05_05:01:29.png",Sonic Nickelodeon
+http://202.166.192.207/iptvlivestream/netSonicNick1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMiBBTSZoYXNoX3ZhbHVlPUJ4OXVRWmFQSGtkZDl2UFhmVGJGL3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/380.png",Pogo
+http://202.166.192.204/iptvlivestream/netPOGO1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMyBBTSZoYXNoX3ZhbHVlPUZhUEliS2lWVFVza2RFQVlPbmk1b0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NAT_GEO_PEOPLE_HD_2018-08-15_03:08:21.png",NAT GEO PEOPLE HD
+http://202.166.192.205/iptvlivestream/netNATGEOPEOPLE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMyBBTSZoYXNoX3ZhbHVlPUZhUEliS2lWVFVza2RFQVlPbmk1b0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NAT_GEO_WILD_HD_2021-05-05_08:05:28.png",NAT GEO WILD HD
+http://202.166.192.206/iptvlivestream/netNATGEOWILDHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMyBBTSZoYXNoX3ZhbHVlPUZhUEliS2lWVFVza2RFQVlPbmk1b0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Animal_Planet_HD_2022-03-10_10:03:16.png",Animal Planet HD
+http://202.166.192.206/iptvlivestream/netAnimalPlanet1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyMyBBTSZoYXNoX3ZhbHVlPUZhUEliS2lWVFVza2RFQVlPbmk1b0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Nat_Geo__HD_2021-05-05_08:05:05.png",Nat Geo  HD
+http://202.166.192.204/iptvlivestream/netNGCHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNCBBTSZoYXNoX3ZhbHVlPVRVSzUrZ2hIcEZLZmFhQ3g1dGxYZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Discovery_HD_2022-03-10_10:03:42.png",Discovery HD
+http://202.166.192.205/iptvlivestream/netDISCOVERYHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNCBBTSZoYXNoX3ZhbHVlPVRVSzUrZ2hIcEZLZmFhQ3g1dGxYZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TLC_HD_World_2021-05-05_08:05:00.png",TLC HD World
+http://202.166.192.204/iptvlivestream/netTLC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNCBBTSZoYXNoX3ZhbHVlPVRVSzUrZ2hIcEZLZmFhQ3g1dGxYZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sony_BBC_Earth_HD_2021-05-05_07:05:50.png",Sony BBC Earth HD
+http://202.166.192.207/iptvlivestream/netSONYBBCHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNCBBTSZoYXNoX3ZhbHVlPVRVSzUrZ2hIcEZLZmFhQ3g1dGxYZmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/History_TV_18_HD_2021-06-13_06:06:47.png",History TV 18 HD
+http://202.166.192.206/iptvlivestream/netHISTORYTVHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNSBBTSZoYXNoX3ZhbHVlPXNycUhMNHNRcmtZNlBaMWI2WFZQMXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/CGTN_Documentary_HD_2021-05-05_06:05:59.png",CGTN Documentary HD
+http://202.166.192.206/iptvlivestream/netCGTNDOC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNSBBTSZoYXNoX3ZhbHVlPXNycUhMNHNRcmtZNlBaMWI2WFZQMXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/National_Geographic_2021-01-19_07:01:27.png",National Geographic
+http://202.166.192.206/iptvlivestream/netNatGeoSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNSBBTSZoYXNoX3ZhbHVlPXNycUhMNHNRcmtZNlBaMWI2WFZQMXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/History_TV_18_2021-05-05_08:05:45.png",History TV 18
+http://202.166.192.204/iptvlivestream/netHISTORYTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNSBBTSZoYXNoX3ZhbHVlPXNycUhMNHNRcmtZNlBaMWI2WFZQMXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/471.jpg",Sony BBC Earth
+http://202.166.192.206/iptvlivestream/netSONYBBC1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNiBBTSZoYXNoX3ZhbHVlPUpxM2pMaVdpUHU3ejBRcWVaREx3K0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Discovery_Turbo_2021-05-05_08:05:35.png",Discovery Turbo
+http://202.166.192.206/iptvlivestream/netTurbo1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNiBBTSZoYXNoX3ZhbHVlPUpxM2pMaVdpUHU3ejBRcWVaREx3K0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Investigation_Discovery_2020-06-26_11:06:00.png",Investigation Discovery
+http://202.166.192.206/iptvlivestream/netJEET1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNiBBTSZoYXNoX3ZhbHVlPUpxM2pMaVdpUHU3ejBRcWVaREx3K0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Discovery_Channel_2023-07-25_05:07:49.jpg",Discovery Channel
+http://202.166.192.205/iptvlivestream/netDISCOVERYCHANNEL1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNiBBTSZoYXNoX3ZhbHVlPUpxM2pMaVdpUHU3ejBRcWVaREx3K0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TLC_India_2019-01-08_11:01:24.png",TLC India
+http://202.166.192.207/iptvlivestream/netTLCINDIA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNyBBTSZoYXNoX3ZhbHVlPTFpQ29XcjVFRFBDbGtPSU9ubmlGdnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Animal_Planet_2023-07-25_05:07:30.jpg",Animal Planet
+http://202.166.192.204/iptvlivestream/AnimalPlanetSD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNyBBTSZoYXNoX3ZhbHVlPTFpQ29XcjVFRFBDbGtPSU9ubmlGdnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Discovery_Science_2023-08-02_01:08:38.jpg",Discovery Science
+http://202.166.192.206/iptvlivestream/netDisScience.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNyBBTSZoYXNoX3ZhbHVlPTFpQ29XcjVFRFBDbGtPSU9ubmlGdnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sichuan_Kangba_Tibetan_TV_2019-01-05_05:01:55.png",Kangba TV
+http://202.166.192.205/iptvlivestream/netKangba1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyNyBBTSZoYXNoX3ZhbHVlPTFpQ29XcjVFRFBDbGtPSU9ubmlGdnc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ABC_Australia_Asia_2018-09-09_01:09:55.jpg",ABC Australia
+http://202.166.192.204/iptvlivestream/netAUSTRALIA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOCBBTSZoYXNoX3ZhbHVlPXlhcnNRWlkxMjJZNHczR0FkUFVYaXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NHK_World_HD_2021-05-05_08:05:07.png",NHK World HD
+http://202.166.192.207/iptvlivestream/netNHK1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOCBBTSZoYXNoX3ZhbHVlPXlhcnNRWlkxMjJZNHczR0FkUFVYaXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/NHK_Premium_HD_2021-05-05_08:05:07.png",NHK Premium HD
+http://202.166.192.207/iptvlivestream/netNHKPREMIUM1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOCBBTSZoYXNoX3ZhbHVlPXlhcnNRWlkxMjJZNHczR0FkUFVYaXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Arirang_HD_2021-05-05_08:05:19.png",Arirang HD
+http://202.166.192.204/iptvlivestream/netARIRANG1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOCBBTSZoYXNoX3ZhbHVlPXlhcnNRWlkxMjJZNHczR0FkUFVYaXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DW-TV_HD_2021-05-05_08:05:32.png",DW-TV HD
+http://202.166.192.204/iptvlivestream/netDWTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOSBBTSZoYXNoX3ZhbHVlPVJBUGhEN3ZtMVdxVFdTUElXL0tGTVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Xizang_TV_Tibetan_2018-08-29_05:08:52.png",Xizang TV Tibetan
+http://202.166.192.206/iptvlivestream/netXZ11500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOSBBTSZoYXNoX3ZhbHVlPVJBUGhEN3ZtMVdxVFdTUElXL0tGTVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Xizang_TV_Chinese_2018-08-29_05:08:25.png",Xizang TV Chinese
+http://202.166.192.207/iptvlivestream/netXZ21500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOSBBTSZoYXNoX3ZhbHVlPVJBUGhEN3ZtMVdxVFdTUElXL0tGTVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Cubavision_International	_2018-10-03_11:10:55.png",Cuba Vision
+http://202.166.192.206/iptvlivestream/netCUBA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOSBBTSZoYXNoX3ZhbHVlPVJBUGhEN3ZtMVdxVFdTUElXL0tGTVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TVE_Internacional_2018-09-28_08:09:07.png",TVE Internacional
+http://202.166.192.207/iptvlivestream/netTVE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDoyOSBBTSZoYXNoX3ZhbHVlPVJBUGhEN3ZtMVdxVFdTUElXL0tGTVE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BBS_2018-01-23_07:01:26.png",BBS
+http://202.166.192.207/iptvlivestream/netBBS11500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMCBBTSZoYXNoX3ZhbHVlPWVtb3NCSDZsajhoRDc2OVp5Q0pPcEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/BBS_2_2018-01-23_07:01:09.jpg",BBS 2
+http://202.166.192.205/iptvlivestream/netBBS21500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMCBBTSZoYXNoX3ZhbHVlPWVtb3NCSDZsajhoRDc2OVp5Q0pPcEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/GTV_2019-05-05_09:05:54.png",GTV
+http://202.166.192.206/iptvlivestream/netGTVSPORTS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMCBBTSZoYXNoX3ZhbHVlPWVtb3NCSDZsajhoRDc2OVp5Q0pPcEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/378.png",Hum Masala
+http://202.166.192.204/iptvlivestream/netMASALATV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMCBBTSZoYXNoX3ZhbHVlPWVtb3NCSDZsajhoRDc2OVp5Q0pPcEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/_Akash_Bangla_2018-10-30_11:10:59.png",Akash Bangla
+http://202.166.192.206/iptvlivestream/netAKASH1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMSBBTSZoYXNoX3ZhbHVlPXJNRngxQWZIVkpGRjJic0FGdm5VSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TV_5_Monde_2022-03-10_10:03:10.png",TV 5 Monde
+http://202.166.192.204/iptvlivestream/netTV5MONDE1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMSBBTSZoYXNoX3ZhbHVlPXJNRngxQWZIVkpGRjJic0FGdm5VSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Fashion_TV_Asia_HD_2021-05-05_08:05:19.png",Fashion TV Asia HD
+http://202.166.192.205/iptvlivestream/netFASHION1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMSBBTSZoYXNoX3ZhbHVlPXJNRngxQWZIVkpGRjJic0FGdm5VSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/UA_TV_2018-12-02_05:12:45.png",UA TV HD
+http://202.166.192.205/iptvlivestream/netUATV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMSBBTSZoYXNoX3ZhbHVlPXJNRngxQWZIVkpGRjJic0FGdm5VSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/KBS_Korea_2021-10-21_07:10:19.jpg",KBS Korea
+http://202.166.192.204/iptvlivestream/netKBS1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMiBBTSZoYXNoX3ZhbHVlPVV2NkVkT0dBWUs3TTFGUUhFYjVqdGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/VOA_ASIA_2017-12-20_03:12:00.png",VOA HD
+http://202.166.192.204/iptvlivestream/netVOA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMiBBTSZoYXNoX3ZhbHVlPVV2NkVkT0dBWUs3TTFGUUhFYjVqdGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Bhakti_Darshan_2021-05-05_08:05:16.png",Bhakti Darshan
+http://202.166.192.205/iptvlivestream/netBHAKTIDARSAN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMiBBTSZoYXNoX3ZhbHVlPVV2NkVkT0dBWUs3TTFGUUhFYjVqdGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Divya_Darshan_HD_2022-03-10_10:03:37.png",Divya Darshan HD
+http://202.166.192.207/iptvlivestream/netDibyaDarsan1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMiBBTSZoYXNoX3ZhbHVlPVV2NkVkT0dBWUs3TTFGUUhFYjVqdGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DEEP_TV_2020-01-29_11:01:20.jpg",Deep TV
+http://202.166.192.206/iptvlivestream/netDeepTv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMyBBTSZoYXNoX3ZhbHVlPXEvc2FYNXA5RzAyY1NHQU05eDNlT2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DHARMA_Television_2020-12-27_06:12:40.png",Dharma Television
+http://202.166.192.204/iptvlivestream/netDharmaTvNep.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMyBBTSZoYXNoX3ZhbHVlPXEvc2FYNXA5RzAyY1NHQU05eDNlT2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Omkar_Television_2021-05-05_06:05:21.png",Omkar Television
+http://202.166.192.206/iptvlivestream/Omkartv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMyBBTSZoYXNoX3ZhbHVlPXEvc2FYNXA5RzAyY1NHQU05eDNlT2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Satsang_2021-05-05_08:05:03.png",Satsang
+http://202.166.192.207/iptvlivestream/netSADSANG1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozMyBBTSZoYXNoX3ZhbHVlPXEvc2FYNXA5RzAyY1NHQU05eDNlT2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Shadhna__2018-02-05_06:02:52.png",Shadhna
+http://202.166.192.207/iptvlivestream/netSADHNA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNCBBTSZoYXNoX3ZhbHVlPXNJVWxaRW9QTDFFQ1c1dWZndTA3cmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Aastha_2022-03-10_10:03:59.png",Aastha
+http://202.166.192.204/iptvlivestream/netAASTHA1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNCBBTSZoYXNoX3ZhbHVlPXNJVWxaRW9QTDFFQ1c1dWZndTA3cmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Sanskar_TV_2021-05-05_08:05:57.png",Sanskar TV
+http://202.166.192.205/iptvlivestream/netSANSKAR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNCBBTSZoYXNoX3ZhbHVlPXNJVWxaRW9QTDFFQ1c1dWZndTA3cmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/PEACE_OF_MIND_2021-05-05_08:05:39.png",Peace of Mind
+http://202.166.192.204/iptvlivestream/netPEACEOFMIND1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNCBBTSZoYXNoX3ZhbHVlPXNJVWxaRW9QTDFFQ1c1dWZndTA3cmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Peace_Tv_Urdu_2021-05-05_08:05:34.png",Peace TV Urdu HD
+http://202.166.192.207/iptvlivestream/netPEACETV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNSBBTSZoYXNoX3ZhbHVlPWVtUmRCSVREQXQ1WlBaU3FsWFIya3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Madani_Channel_2021-05-05_08:05:11.png",Madani Channel
+http://202.166.192.205/iptvlivestream/netMADANI1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNSBBTSZoYXNoX3ZhbHVlPWVtUmRCSVREQXQ1WlBaU3FsWFIya3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/DAYSTAR_2021-05-05_08:05:14.png",Daystar Television
+http://202.166.192.206/iptvlivestream/netDAYSTAR1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNSBBTSZoYXNoX3ZhbHVlPWVtUmRCSVREQXQ1WlBaU3FsWFIya3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TBN_ASIA_2018-01-31_10:01:30.png",TBN ASIA
+http://202.166.192.205/iptvlivestream/netTBN1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNSBBTSZoYXNoX3ZhbHVlPWVtUmRCSVREQXQ1WlBaU3FsWFIya3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Angel_TV_India_2018-11-02_02:11:59.png",Angel TV HD
+http://202.166.192.207/iptvlivestream/netANGEL1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNSBBTSZoYXNoX3ZhbHVlPWVtUmRCSVREQXQ1WlBaU3FsWFIya3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/WOW__2020-04-06_01:04:55.png",WOW
+http://202.166.192.205/iptvlivestream/wowtv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNiBBTSZoYXNoX3ZhbHVlPUsvVVozelZ0QnBOR0ZFVDU1blNDL0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Cinemachi_HD_2020-04-06_01:04:25.png",Cinemachi HD
+http://202.166.192.207/iptvlivestream/cinemachi.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNiBBTSZoYXNoX3ZhbHVlPUsvVVozelZ0QnBOR0ZFVDU1blNDL0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Health_and_Wellness__HD_2020-04-06_01:04:26.png",Health and Wellness  HD
+http://202.166.192.207/iptvlivestream/HealthnWellness/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNiBBTSZoYXNoX3ZhbHVlPUsvVVozelZ0QnBOR0ZFVDU1blNDL0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Smile__2020-04-06_01:04:24.jpg",Smile
+http://202.166.192.206/iptvlivestream/smilie.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNiBBTSZoYXNoX3ZhbHVlPUsvVVozelZ0QnBOR0ZFVDU1blNDL0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/GO_TO_LUXE_TV__2021-05-05_08:05:37.png",GO TO LUXE TV
+http://202.166.192.207/iptvlivestream/netLUXEHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNyBBTSZoYXNoX3ZhbHVlPUtJb2JOSkNrQ3JvY2s1ZUNmcVlaYWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/TV_TRISHULI_2018-09-28_05:09:16.png",TV TRISHULI
+http://202.166.192.205/iptvlivestream/tvtrishuli.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNyBBTSZoYXNoX3ZhbHVlPUtJb2JOSkNrQ3JvY2s1ZUNmcVlaYWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/test_2020-12-21_05:12:46.png",test
+http://202.166.192.206/iptvsports/netTEN2HDstb.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozNyBBTSZoYXNoX3ZhbHVlPUtJb2JOSkNrQ3JvY2s1ZUNmcVlaYWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Gandaki_Tv_2019-02-27_04:02:19.png",Gandaki Tv
+http://202.166.192.204/iptvlivestream/netGandakiTv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozOCBBTSZoYXNoX3ZhbHVlPVRNaGUzNWFnYXdKSi9palFDVjl6Q1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ITV_NEPAL_2020-12-02_09:12:13.jpg",ITV Nepal
+http://202.166.192.205:80/iptvlivestream/ITVNepal.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozOCBBTSZoYXNoX3ZhbHVlPVRNaGUzNWFnYXdKSi9palFDVjl6Q1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Travel_XP_HD_2019-12-08_07:12:12.png",Travel XP HD
+http://202.166.192.205/iptvlivestream/netTRAVELXPHD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozOSBBTSZoYXNoX3ZhbHVlPWJvMmFDOElxZnVvOVZFZjg2MGx0V2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/FOOD_FOOD_2019-09-15_01:09:10.jpg",FOOD FOOD
+http://202.166.192.207/iptvlivestream/netFOODFOOD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozOSBBTSZoYXNoX3ZhbHVlPWJvMmFDOElxZnVvOVZFZjg2MGx0V2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/ARY_QTV_2018-03-08_11:03:18.jpg",ARY QTV
+http://202.166.192.206/iptvlivestream/netARYQTV1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozOSBBTSZoYXNoX3ZhbHVlPWJvMmFDOElxZnVvOVZFZjg2MGx0V2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/GOD_TV_ASIA_2018-01-03_04:01:34.png",GOD TV ASIA
+http://202.166.192.204/iptvlivestream/netGOD1500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDozOSBBTSZoYXNoX3ZhbHVlPWJvMmFDOElxZnVvOVZFZjg2MGx0V2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=
+#EXTINF:-1 tvg-logo="https://nettv1.nettv.com.np//channel_logo/Care_World_2019-09-15_11:09:13.jpg",Care World
+http://202.166.192.207/iptvlivestream/netCAREWORLD91500.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMjYgNzo0NDo0MCBBTSZoYXNoX3ZhbHVlPXVDQmRUWWtjbVJ5cFFPQVdEL0VxclE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yMDA=

@@ -190,4 +190,31 @@ if (typeof window !== "undefined") {
     favorites: favs,
     recentChannels: recent,
   });
+
+  // Auto-load default playlist on first visit (no channels in localStorage)
+  if (channels === null) {
+    fetch("/channels.m3u")
+      .then((r) => r.text())
+      .then(async (text) => {
+        const { parseM3U } = await import("./channels");
+        const parsed = parseM3U(text);
+        if (parsed.length === 0) return;
+        const COLORS = [
+          "#ef4444","#f97316","#eab308","#22c55e","#06b6d4",
+          "#8b5cf6","#ec4899","#14b8a6","#f43f5e","#a855f7",
+        ];
+        const newChannels: Channel[] = parsed.map((ch, i) => ({
+          id: `default_${i}`,
+          name: ch.name,
+          url: ch.url,
+          category: ch.group || "Other",
+          logo: ch.logo,
+          color: COLORS[i % COLORS.length],
+          number: i + 1,
+        }));
+        saveJSON("tv-channels", newChannels);
+        useTvStore.setState({ channels: newChannels });
+      })
+      .catch(() => {});
+  }
 }
