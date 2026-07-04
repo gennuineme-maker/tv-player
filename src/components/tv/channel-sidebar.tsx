@@ -4,14 +4,19 @@ import { useState, useMemo, useRef, useEffect, memo, useCallback } from "react";
 import { useTvStore } from "@/lib/store";
 import { Channel } from "@/lib/channels";
 import {
-  Search, X, Star, Clock, ChevronDown, ChevronRight,
-  Tv, Trash2,
+  Search, X, Star, Clock, Tv, Trash2,
+  ArrowLeft, ChevronRight,
 } from "lucide-react";
-import { AnimatePresence, motion } from "framer-motion";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
-const CAT_PAGE = 80;
+const CHAN_PAGE = 80;
+
+type View = "categories" | "channels";
+interface ViewState {
+  view: View;
+  category: string | null;
+}
 
 export function ChannelSidebar() {
   const {
@@ -30,27 +35,31 @@ export function ChannelSidebar() {
 
   const [showSearch, setShowSearch] = useState(false);
   const [localSearch, setLocalSearch] = useState("");
-  const [expandedCats, setExpandedCats] = useState<Set<string>>(new Set());
-  const [expandedFavs, setExpandedFavs] = useState(true);
-  const [expandedRecent, setExpandedRecent] = useState(true);
-  const [catPage, setCatPage] = useState<Record<string, number>>({});
+  const [searchQuery, setSearchQuery] = useState("");
+  const [viewState, setViewState] = useState<ViewState>({ view: "categories", category: null });
+  const [catPage, setCatPage] = useState(1);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>();
 
   // Debounced search
-  const [searchQuery, setSearchQuery] = useState("");
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => setSearchQuery(localSearch), 200);
     return () => clearTimeout(debounceRef.current);
   }, [localSearch]);
 
+  // Focus search input
   useEffect(() => {
     if (showSearch && searchInputRef.current) {
       const t = setTimeout(() => searchInputRef.current?.focus(), 100);
       return () => clearTimeout(t);
     }
   }, [showSearch]);
+
+  // Reset page when category changes
+  useEffect(() => {
+    setCatPage(1);
+  }, [viewState.category]);
 
   // Group channels by category
   const categoriesMap = useMemo(() => {
@@ -68,7 +77,7 @@ export function ChannelSidebar() {
     [categoriesMap]
   );
 
-  // Search results (flat)
+  // Search results
   const searchResults = useMemo(() => {
     if (!searchQuery) return [];
     const q = searchQuery.toLowerCase();
@@ -88,23 +97,29 @@ export function ChannelSidebar() {
     [channels, recentChannels]
   );
 
+  // Current category channels (for drill-down view)
+  const activeCategoryChannels = useMemo(() => {
+    if (!viewState.category) return [];
+    if (viewState.category === "__favorites__") return favoriteChannels;
+    if (viewState.category === "__recent__") return recent;
+    return categoriesMap.get(viewState.category) || [];
+  }, [categoriesMap, viewState.category, favoriteChannels, recent]);
+
+  const visibleCategoryChannels = activeCategoryChannels.slice(0, catPage * CHAN_PAGE);
+  const hasMoreChannels = visibleCategoryChannels.length < activeCategoryChannels.length;
+
   const selectChannel = useCallback((id: string) => {
     setCurrentChannel(id);
     addRecent(id);
     if (window.innerWidth < 1024) setSidebarOpen(false);
   }, [setCurrentChannel, addRecent, setSidebarOpen]);
 
-  const toggleCat = useCallback((cat: string) => {
-    setExpandedCats((prev) => {
-      const next = new Set(prev);
-      if (next.has(cat)) next.delete(cat);
-      else next.add(cat);
-      return next;
-    });
+  const openCategory = useCallback((cat: string) => {
+    setViewState({ view: "channels", category: cat });
   }, []);
 
-  const loadMoreCat = useCallback((cat: string) => {
-    setCatPage((prev) => ({ ...prev, [cat]: (prev[cat] || 1) + 1 }));
+  const goBack = useCallback(() => {
+    setViewState({ view: "categories", category: null });
   }, []);
 
   const deleteCategory = useCallback((cat: string) => {
@@ -124,38 +139,60 @@ export function ChannelSidebar() {
     setSearchQuery("");
   }, [setSidebarOpen]);
 
+  // When search is active, override view
+  const isSearchActive = searchQuery.length > 0;
+
   return (
     <>
-      <AnimatePresence>
-        {sidebarOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/60 z-40"
-            onClick={closeSidebar}
-          />
-        )}
-      </AnimatePresence>
+      {/* Overlay */}
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black/60 z-40"
+          onClick={closeSidebar}
+        />
+      )}
 
-      <motion.aside
-        initial={false}
-        animate={{ x: sidebarOpen ? 0 : -288 }}
-        transition={{ type: "spring", damping: 25, stiffness: 200 }}
-        className="fixed left-0 top-0 bottom-0 w-72 bg-zinc-950/95 backdrop-blur-xl border-r border-white/5 z-50 flex flex-col"
+      <aside
+        className={`fixed left-0 top-0 bottom-0 w-72 bg-zinc-950/95 backdrop-blur-xl border-r border-white/5 z-50 flex flex-col transition-transform duration-200 ${
+          sidebarOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
       >
         {/* Header */}
         <div className="p-4 flex items-center justify-between border-b border-white/5 flex-shrink-0">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
-              <Tv size={16} className="text-white" />
-            </div>
-            <div>
-              <span className="text-white font-bold text-lg tracking-tight block leading-tight">TV Player</span>
-              <span className="text-white/25 text-[10px]">{channels.length} channels</span>
+          <div className="flex items-center gap-2 min-w-0">
+            {viewState.view === "channels" && !isSearchActive ? (
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                className="h-8 w-8 text-white/50 hover:text-white hover:bg-white/10 flex-shrink-0"
+                onClick={goBack}
+              >
+                <ArrowLeft size={16} />
+              </Button>
+            ) : (
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center flex-shrink-0">
+                <Tv size={16} className="text-white" />
+              </div>
+            )}
+            <div className="min-w-0">
+              <span className="text-white font-bold text-lg tracking-tight block leading-tight truncate">
+                {isSearchActive
+                  ? "Search"
+                  : viewState.view === "channels" && viewState.category
+                    ? viewState.category
+                    : "TV Player"}
+              </span>
+              <span className="text-white/25 text-[10px]">
+                {isSearchActive
+                  ? `${searchResults.length} results`
+                  : viewState.view === "channels" && viewState.category
+                    ? `${activeCategoryChannels.length} channels`
+                    : `${channels.length} channels`}
+              </span>
             </div>
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 flex-shrink-0">
             <Button
               type="button"
               variant="ghost"
@@ -182,32 +219,22 @@ export function ChannelSidebar() {
         </div>
 
         {/* Search */}
-        <AnimatePresence>
-          {showSearch && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              className="overflow-hidden flex-shrink-0"
-            >
-              <div className="px-4 py-3">
-                <Input
-                  ref={searchInputRef}
-                  placeholder="Search channels..."
-                  value={localSearch}
-                  onChange={(e) => setLocalSearch(e.target.value)}
-                  className="bg-white/5 border-white/10 text-white placeholder:text-white/30 h-9 text-sm focus-visible:ring-orange-500/50"
-                />
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {showSearch && (
+          <div className="px-4 py-3 flex-shrink-0 border-b border-white/5">
+            <Input
+              ref={searchInputRef}
+              placeholder="Search channels..."
+              value={localSearch}
+              onChange={(e) => setLocalSearch(e.target.value)}
+              className="bg-white/5 border-white/10 text-white placeholder:text-white/30 h-9 text-sm focus-visible:ring-orange-500/50"
+            />
+          </div>
+        )}
 
         {/* Scrollable content */}
         <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain">
-
-          {/* Search results mode */}
-          {searchQuery ? (
+          {isSearchActive ? (
+            /* ===== SEARCH RESULTS ===== */
             <div>
               <div className="px-4 py-2">
                 <span className="text-white/40 text-[11px] font-semibold uppercase tracking-wider">
@@ -238,134 +265,113 @@ export function ChannelSidebar() {
                 </div>
               )}
             </div>
+          ) : viewState.view === "channels" && viewState.category ? (
+            /* ===== DRILL-DOWN: CHANNEL LIST FOR SELECTED CATEGORY ===== */
+            <div>
+              {visibleCategoryChannels.map((ch) => (
+                <ChannelItem
+                  key={ch.id}
+                  channel={ch}
+                  isActive={currentChannelId === ch.id}
+                  isFav={isFavorite(ch.id)}
+                  onSelect={() => selectChannel(ch.id)}
+                  onToggleFav={() => toggleFavorite({ id: ch.id, name: ch.name })}
+                  canDelete
+                  onDelete={() => removeChannel(ch.id)}
+                />
+              ))}
+              {hasMoreChannels && (
+                <button
+                  type="button"
+                  onClick={() => setCatPage((p) => p + 1)}
+                  className="w-full py-2.5 text-center text-white/25 hover:text-white/50 text-[11px] transition-colors"
+                >
+                  Load more ({Math.min(CHAN_PAGE, activeCategoryChannels.length - visibleCategoryChannels.length)} more)
+                </button>
+              )}
+              {activeCategoryChannels.length === 0 && (
+                <div className="px-4 py-8 text-center">
+                  <Tv size={24} className="mx-auto text-white/20 mb-2" />
+                  <p className="text-white/30 text-sm">No channels</p>
+                </div>
+              )}
+            </div>
           ) : (
-            /* Normal category accordion mode */
-            <>
-              {/* Favorites */}
+            /* ===== CATEGORIES VIEW ===== */
+            <div>
+              {/* Favorites quick access */}
               {favoriteChannels.length > 0 && (
-                <CategorySection
-                  title="Favorites"
-                  icon={<Star size={12} className="text-orange-400 fill-orange-400" />}
+                <CategoryItem
+                  icon={<Star size={13} className="text-orange-400 fill-orange-400" />}
+                  name="Favorites"
                   count={favoriteChannels.length}
-                  expanded={expandedFavs}
-                  onToggle={() => setExpandedFavs(!expandedFavs)}
                   accent
-                >
-                  {favoriteChannels.slice(0, 30).map((ch) => (
-                    <ChannelItem
-                      key={ch.id}
-                      channel={ch}
-                      isActive={currentChannelId === ch.id}
-                      isFav
-                      onSelect={() => selectChannel(ch.id)}
-                      onToggleFav={() => toggleFavorite({ id: ch.id, name: ch.name })}
-                      canDelete
-                      onDelete={() => removeChannel(ch.id)}
-                    />
-                  ))}
-                </CategorySection>
+                  onClick={() => {
+                    setViewState({ view: "channels", category: "__favorites__" });
+                  }}
+                />
               )}
 
-              {/* Recent */}
+              {/* Recent quick access */}
               {recent.length > 0 && (
-                <CategorySection
-                  title="Recent"
-                  icon={<Clock size={12} className="text-blue-400" />}
-                  count={recent.length}
-                  expanded={expandedRecent}
-                  onToggle={() => setExpandedRecent(!expandedRecent)}
-                  extra={
-                    <Button
-                      type="button"
-                      variant="ghost"
-                      size="icon"
-                      className="h-4 w-4 text-white/20 hover:text-white/50"
-                      onClick={(e) => { e.stopPropagation(); useTvStore.setState({ recentChannels: [] }); }}
-                    >
-                      <Trash2 size={9} />
-                    </Button>
-                  }
-                >
-                  {recent.slice(0, 10).map((ch) => (
-                    <ChannelItem
-                      key={ch.id}
-                      channel={ch}
-                      isActive={currentChannelId === ch.id}
-                      isFav={isFavorite(ch.id)}
-                      onSelect={() => selectChannel(ch.id)}
-                      onToggleFav={() => toggleFavorite({ id: ch.id, name: ch.name })}
-                      canDelete
-                      onDelete={() => removeChannel(ch.id)}
-                    />
-                  ))}
-                </CategorySection>
-              )}
-
-              {/* Category groups */}
-              {sortedCategories.map((cat) => {
-                const catChannels = categoriesMap.get(cat)!;
-                const isExpanded = expandedCats.has(cat);
-                const page = catPage[cat] || 1;
-                const visible = catChannels.slice(0, page * CAT_PAGE);
-                const hasMore = visible.length < catChannels.length;
-
-                return (
-                  <div key={cat}>
-                    <div
-                      className="flex items-center gap-2 px-4 py-2.5 cursor-pointer group/cat hover:bg-white/[0.02] transition-colors"
-                      onClick={() => toggleCat(cat)}
-                    >
-                      <div className={`transition-transform duration-200 ${isExpanded ? "rotate-90" : ""}`}>
-                        <ChevronRight size={12} className="text-white/25" />
-                      </div>
-                      <span className="text-white/50 text-xs font-medium flex-1 truncate">{cat}</span>
-                      <span className="text-white/20 text-[10px] font-mono">{catChannels.length}</span>
+                <div className="relative">
+                  <CategoryItem
+                    icon={<Clock size={13} className="text-blue-400" />}
+                    name="Recent"
+                    count={recent.length}
+                    onClick={() => {
+                      setViewState({ view: "channels", category: "__recent__" });
+                    }}
+                    extra={
                       <button
                         type="button"
-                        onClick={(e) => { e.stopPropagation(); deleteCategory(cat); }}
-                        className="opacity-0 group-hover/cat:opacity-100 text-white/20 hover:text-red-400 transition-opacity p-0.5"
-                        title={`Delete "${cat}"`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          useTvStore.setState({ recentChannels: [] });
+                        }}
+                        className="opacity-0 group-hover:opacity-100 text-white/20 hover:text-white/50 transition-opacity p-0.5"
+                        title="Clear recent"
                       >
                         <Trash2 size={10} />
                       </button>
-                    </div>
+                    }
+                  />
+                </div>
+              )}
 
-                    <AnimatePresence>
-                      {isExpanded && (
-                        <motion.div
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: "auto", opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          className="overflow-hidden"
-                        >
-                          {visible.map((ch) => (
-                            <ChannelItem
-                              key={ch.id}
-                              channel={ch}
-                              isActive={currentChannelId === ch.id}
-                              isFav={isFavorite(ch.id)}
-                              onSelect={() => selectChannel(ch.id)}
-                              onToggleFav={() => toggleFavorite({ id: ch.id, name: ch.name })}
-                              canDelete
-                              onDelete={() => removeChannel(ch.id)}
-                            />
-                          ))}
-                          {hasMore && (
-                            <button
-                              type="button"
-                              onClick={() => loadMoreCat(cat)}
-                              className="w-full py-2 text-center text-white/25 hover:text-white/50 text-[11px] transition-colors"
-                            >
-                              Show more ({catChannels.length - visible.length} remaining)
-                            </button>
-                          )}
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </div>
-                );
-              })}
-            </>
+              {/* Divider */}
+              {(favoriteChannels.length > 0 || recent.length > 0) && sortedCategories.length > 0 && (
+                <div className="mx-4 my-1 border-t border-white/5" />
+              )}
+
+              {/* All categories */}
+              {sortedCategories.map((cat) => (
+                <CategoryItem
+                  key={cat}
+                  name={cat}
+                  count={categoriesMap.get(cat)!.length}
+                  onClick={() => openCategory(cat)}
+                  extra={
+                    <button
+                      type="button"
+                      onClick={(e) => { e.stopPropagation(); deleteCategory(cat); }}
+                      className="opacity-0 group-hover:opacity-100 text-white/20 hover:text-red-400 transition-opacity p-0.5"
+                      title={`Delete "${cat}"`}
+                    >
+                      <Trash2 size={10} />
+                    </button>
+                  }
+                />
+              ))}
+
+              {channels.length === 0 && (
+                <div className="px-4 py-12 text-center">
+                  <Tv size={28} className="mx-auto text-white/15 mb-3" />
+                  <p className="text-white/25 text-sm">No channels yet</p>
+                  <p className="text-white/15 text-xs mt-1">Import a playlist to get started</p>
+                </div>
+              )}
+            </div>
           )}
         </div>
 
@@ -377,64 +383,46 @@ export function ChannelSidebar() {
             <span><kbd className="px-1 py-0.5 bg-white/5 rounded text-white/30 font-mono">P</kbd> Mini</span>
           </div>
         </div>
-      </motion.aside>
+      </aside>
     </>
   );
 }
 
-/* Collapsible section with header */
-function CategorySection({
-  title,
+/* Category row item - shown in the categories view */
+function CategoryItem({
   icon,
+  name,
   count,
-  expanded,
-  onToggle,
   accent,
+  onClick,
   extra,
-  children,
 }: {
-  title: string;
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
+  name: string;
   count: number;
-  expanded: boolean;
-  onToggle: () => void;
   accent?: boolean;
+  onClick: () => void;
   extra?: React.ReactNode;
-  children: React.ReactNode;
 }) {
   return (
-    <div>
-      <div
-        className="flex items-center gap-2 px-4 py-2.5 cursor-pointer group/cat hover:bg-white/[0.02] transition-colors"
-        onClick={onToggle}
-      >
-        <div className={`transition-transform duration-200 ${expanded ? "rotate-90" : ""}`}>
-          <ChevronRight size={12} className={accent ? "text-orange-400" : "text-white/25"} />
-        </div>
-        {icon}
-        <span className={`text-xs font-medium flex-1 ${accent ? "text-white/50" : "text-white/40"}`}>
-          {title}
-        </span>
-        <span className="text-white/20 text-[10px] font-mono">{count}</span>
-        {extra}
-      </div>
-      <AnimatePresence>
-        {expanded && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden"
-          >
-            {children}
-          </motion.div>
-        )}
-      </AnimatePresence>
+    <div
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onClick(); } }}
+      className="group flex items-center gap-2.5 px-4 py-2.5 cursor-pointer hover:bg-white/[0.03] transition-colors"
+      onClick={onClick}
+    >
+      {icon || <ChevronRight size={13} className="text-white/20 flex-shrink-0" />}
+      <span className={`text-sm font-medium flex-1 truncate ${accent ? "text-white/60" : "text-white/50"}`}>
+        {name}
+      </span>
+      <span className="text-white/20 text-[11px] font-mono flex-shrink-0">{count}</span>
+      {extra}
     </div>
   );
 }
 
-/* Memoized sidebar item */
+/* Memoized sidebar channel item */
 const ChannelItem = memo(function ChannelItem({
   channel,
   isActive,
@@ -460,7 +448,7 @@ const ChannelItem = memo(function ChannelItem({
       role="button"
       tabIndex={0}
       onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onSelect(); } }}
-      className={`w-full flex items-center gap-3 pl-10 pr-4 py-2 text-left transition-colors group cursor-pointer ${
+      className={`w-full flex items-center gap-3 pl-4 pr-4 py-2 text-left transition-colors group cursor-pointer ${
         isActive ? "bg-white/5 border-r-2" : "hover:bg-white/[0.03]"
       }`}
       style={isActive ? { borderRightColor: channel.color } : undefined}
