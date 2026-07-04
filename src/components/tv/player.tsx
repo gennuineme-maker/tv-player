@@ -52,6 +52,7 @@ export function VideoPlayer() {
   const [error, setError] = useState<string | null>(null);
   const [showNumberOverlay, setShowNumberOverlay] = useState(false);
   const [numberBuffer, setNumberBuffer] = useState("");
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
 
   const toggleFullscreen = () => {
     if (!containerRef.current) return;
@@ -320,7 +321,17 @@ export function VideoPlayer() {
       } ${sidebarOpen ? "lg:ml-72" : ""} transition-all duration-300`}
       onMouseMove={resetControlsTimer}
       onMouseLeave={() => {
-        if (isPlaying) setShowControls(false);
+        if (isPlaying && !isTouchDevice) setShowControls(false);
+      }}
+      onTouchStart={() => {
+        setIsTouchDevice(true);
+        resetControlsTimer();
+      }}
+      onTouchEnd={() => {
+        clearTimeout(controlsTimer.current);
+        controlsTimer.current = setTimeout(() => {
+          if (isPlaying) setShowControls(false);
+        }, 5000);
       }}
       style={{
         height: miniPlayer ? undefined : "56.25vw",
@@ -422,6 +433,8 @@ export function VideoPlayer() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
             className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-black/30 z-20"
+            style={{ touchAction: "manipulation" }}
+            onTouchStart={resetControlsTimer}
           >
             {/* Top bar */}
             <div className="absolute top-0 left-0 right-0 p-4 flex items-center">
@@ -470,14 +483,14 @@ export function VideoPlayer() {
                 <div className="flex items-center gap-2">
                   <button
                     onClick={togglePlay}
-                    className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                    className="p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                   >
                     {isPlaying ? <Pause size={20} /> : <Play size={20} />}
                   </button>
                   <div className="flex items-center gap-1 group/vol">
                     <button
                       onClick={() => setMuted(!muted)}
-                      className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                      className="p-2.5 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                     >
                       {muted || volume === 0 ? <VolumeX size={18} /> : <Volume2 size={18} />}
                     </button>
@@ -502,7 +515,7 @@ export function VideoPlayer() {
                       currentChannel &&
                       toggleFavorite({ id: currentChannel.id, name: currentChannel.name })
                     }
-                    className={`p-2 rounded-lg transition-colors ${
+                    className={`p-2.5 rounded-lg transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center ${
                       isFav
                         ? "text-red-400 hover:text-red-300"
                         : "text-white/60 hover:text-white hover:bg-white/10"
@@ -512,21 +525,21 @@ export function VideoPlayer() {
                   </button>
                   <button
                     onClick={togglePiP}
-                    className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                    className="p-2.5 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                     title="Picture-in-Picture"
                   >
                     <PictureInPicture2 size={18} />
                   </button>
                   <button
                     onClick={toggleFullscreen}
-                    className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                    className="p-2.5 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                     title="Fullscreen (F)"
                   >
                     {isFullscreen ? <Minimize2 size={18} /> : <Maximize size={18} />}
                   </button>
                   <button
                     onClick={() => setMiniPlayer(true)}
-                    className="p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                    className="p-2.5 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                     title="Mini Player (P)"
                   >
                     <Minimize size={18} />
