@@ -407,23 +407,6 @@ export function VideoPlayer() {
         )}
       </AnimatePresence>
 
-      {/* LIVE badge */}
-      {currentChannel && (
-        <div className="absolute top-4 right-4 flex items-center gap-2 z-10">
-          <div className="flex items-center gap-1.5 bg-red-600/90 backdrop-blur-sm px-2.5 py-1 rounded-md">
-            <div className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-            <span className="text-white text-[10px] font-bold tracking-wider uppercase">
-              Live
-            </span>
-          </div>
-          <div className="bg-black/50 backdrop-blur-sm px-2.5 py-1 rounded-md">
-            <span className="text-white/70 text-[10px] font-mono">
-              CH {currentChannel.number}
-            </span>
-          </div>
-        </div>
-      )}
-
       {/* Controls overlay */}
       <AnimatePresence>
         {showControls && currentChannel && (
