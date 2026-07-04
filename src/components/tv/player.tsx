@@ -55,9 +55,28 @@ export function VideoPlayer() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
   const toggleFullscreen = () => {
-    if (!containerRef.current) return;
+    const video = videoRef.current;
+    const container = containerRef.current;
+    if (!video || !container) return;
+
+    // On mobile/touch: use video element directly (required by iOS Safari & most mobile browsers)
+    if (isTouchDevice && !document.fullscreenElement) {
+      const el = video as HTMLVideoElement & { webkitEnterFullscreen?: () => void };
+      if (el.webkitEnterFullscreen) {
+        el.webkitEnterFullscreen();
+        setIsFullscreen(true);
+        return;
+      }
+      if (el.requestFullscreen) {
+        el.requestFullscreen();
+        setIsFullscreen(true);
+        return;
+      }
+    }
+
+    // Desktop: use container div for fullscreen (includes controls overlay)
     if (!document.fullscreenElement) {
-      containerRef.current.requestFullscreen();
+      container.requestFullscreen();
       setIsFullscreen(true);
     } else {
       document.exitFullscreen();
