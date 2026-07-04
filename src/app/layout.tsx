@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TV Player - Live Streaming",
+  title: "RajeshTV - Live Streaming",
   description: "Watch live TV channels with a modern streaming experience.",
   icons: {
     icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",

@@ -71,7 +71,7 @@ export default function TvPage() {
                 </svg>
               </div>
               <span className="text-white font-bold text-sm tracking-tight">
-                TV Player
+                RajeshTV
               </span>
               <span className="text-white/20 text-xs">
                 {channels.length} ch

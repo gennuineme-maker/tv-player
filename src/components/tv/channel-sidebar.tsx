@@ -202,7 +202,7 @@ export function ChannelSidebar() {
                   ? "Search"
                   : viewState.view === "channels" && viewState.category
                     ? viewState.category
-                    : "TV Player"}
+                    : "RajeshTV"}
               </span>
               <span className="text-white/25 text-[10px]">
                 {isSearchActive
